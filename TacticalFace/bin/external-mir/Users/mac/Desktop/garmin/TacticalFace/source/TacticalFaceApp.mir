@@ -1,0 +1,49 @@
+[ @file = "/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceApp.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; ]
+import Toybox.Application;
+[ @file = "/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceApp.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceApp.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceApp.mc"; @line = 5; @symbol_classdef = [TacticalFaceApp,5,6,21]; @symbol_extends<0> = [Application,5,30,41]; @symbol_extends<1> = [AppBase,5,42,49]; ]
+class TacticalFaceApp extends Application.AppBase {
+    [ @file = "/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceApp.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceApp.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceApp.mc"; @line = 6; @symbol_functiondef = [initialize,6,13,23]; ]
+    function initialize() as Void {
+_Users_mac_Desktop_garmin_TacticalFace_source_TacticalFaceApp_mc_6_26_6_50_start:
+[ "/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceApp.mc" 6 28 ]
+        symbol [ AppBase %tmp.2 6 28 35 ];
+        %tmp.2 = getv ? :AppBase;
+        symbol [ initialize %tmp.3 6 36 46 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mac_Desktop_garmin_TacticalFace_source_TacticalFaceApp_mc_6_26_6_50_stop:
+    }
+    [ @file = "/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceApp.mc"; @line = 7; @symbol_functiondef = [onStart,7,13,20]; @symbol_param<0> = [state,7,21,26]; @symbol_param<0>_type<0> = [Dictionary,7,30,40]; ]
+    function onStart(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceApp.mc"; @line = 8; @symbol_functiondef = [onStop,8,13,19]; @symbol_param<0> = [state,8,20,25]; @symbol_param<0>_type<0> = [Dictionary,8,29,39]; ]
+    function onStop(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceApp.mc"; @line = 9; @symbol_functiondef = [getInitialView,9,13,27]; @symbol_return<0> = [Views,9,34,39]; @symbol_return<1> = [Views,9,45,50]; @symbol_return<2> = [InputDelegates,9,52,66]; ]
+    function getInitialView() as [Views] or [Views, InputDelegates] {
+_Users_mac_Desktop_garmin_TacticalFace_source_TacticalFaceApp_mc_9_68_11_4_start:
+[ "/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceApp.mc" 10 8 ]
+        %tmp.1 = newa 1;
+        symbol [ TacticalFaceView %tmp.5 10 21 37 ];
+        %tmp.5 = getv ? :TacticalFaceView;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        ret %tmp.7;
+_Users_mac_Desktop_garmin_TacticalFace_source_TacticalFaceApp_mc_9_68_11_4_stop:
+    }
+}
+[ @file = "/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceApp.mc"; @line = 1; ]
+<init> {
+}

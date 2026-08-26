@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/mac/Desktop/garmin/TacticalFace/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceApp.mc" id="1" lineNum="5" parent="globals/TacticalFaceApp" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435472" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="3" lineNum="14" parent="globals/TacticalFaceView" pc="268435492" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceApp.mc" id="4" lineNum="7" parent="globals/TacticalFaceApp" pc="268435504" symbol="onStart"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceApp.mc" id="5" lineNum="9" parent="globals/TacticalFaceApp" pc="268435507" symbol="getInitialView"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceApp.mc" id="5" lineNum="10" parent="globals/TacticalFaceApp" pc="268435509" symbol="getInitialView"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceApp.mc" id="6" lineNum="6" parent="globals/TacticalFaceApp" pc="268435535" symbol="initialize"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceApp.mc" id="6" lineNum="6" parent="globals/TacticalFaceApp" pc="268435537" symbol="initialize"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceApp.mc" id="7" lineNum="8" parent="globals/TacticalFaceApp" pc="268435550" symbol="onStop"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="8" lineNum="166" parent="globals/TacticalFaceView" pc="268435553" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawTopArc&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="8" lineNum="167" parent="globals/TacticalFaceView" pc="268435556" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawTopArc&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="8" lineNum="169" parent="globals/TacticalFaceView" pc="268435572" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawTopArc&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="8" lineNum="170" parent="globals/TacticalFaceView" pc="268435592" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawTopArc&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="8" lineNum="171" parent="globals/TacticalFaceView" pc="268435599" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawTopArc&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="8" lineNum="172" parent="globals/TacticalFaceView" pc="268435610" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawTopArc&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="8" lineNum="172" parent="globals/TacticalFaceView" pc="268435617" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawTopArc&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="8" lineNum="174" parent="globals/TacticalFaceView" pc="268435627" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawTopArc&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="8" lineNum="174" parent="globals/TacticalFaceView" pc="268435640" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawTopArc&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="8" lineNum="175" parent="globals/TacticalFaceView" pc="268435653" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawTopArc&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="8" lineNum="178" parent="globals/TacticalFaceView" pc="268435699" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawTopArc&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="8" lineNum="179" parent="globals/TacticalFaceView" pc="268435719" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawTopArc&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="8" lineNum="179" parent="globals/TacticalFaceView" pc="268435732" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawTopArc&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="8" lineNum="180" parent="globals/TacticalFaceView" pc="268435745" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawTopArc&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="8" lineNum="180" parent="globals/TacticalFaceView" pc="268435758" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawTopArc&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="8" lineNum="181" parent="globals/TacticalFaceView" pc="268435771" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawTopArc&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="8" lineNum="182" parent="globals/TacticalFaceView" pc="268435798" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawTopArc&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="8" lineNum="183" parent="globals/TacticalFaceView" pc="268435825" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawTopArc&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="8" lineNum="183" parent="globals/TacticalFaceView" pc="268435844" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawTopArc&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="8" lineNum="184" parent="globals/TacticalFaceView" pc="268435863" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawTopArc&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="8" lineNum="186" parent="globals/TacticalFaceView" pc="268435989" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawTopArc&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="9" lineNum="208" parent="globals/TacticalFaceView" pc="268436116" symbol="&lt;globals/TacticalFaceView/&lt;&gt;hhmm&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="9" lineNum="209" parent="globals/TacticalFaceView" pc="268436119" symbol="&lt;globals/TacticalFaceView/&lt;&gt;hhmm&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="9" lineNum="209" parent="globals/TacticalFaceView" pc="268436125" symbol="&lt;globals/TacticalFaceView/&lt;&gt;hhmm&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="9" lineNum="210" parent="globals/TacticalFaceView" pc="268436134" symbol="&lt;globals/TacticalFaceView/&lt;&gt;hhmm&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="9" lineNum="211" parent="globals/TacticalFaceView" pc="268436151" symbol="&lt;globals/TacticalFaceView/&lt;&gt;hhmm&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="10" lineNum="127" parent="globals/TacticalFaceView" pc="268436197" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refreshSun&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="10" lineNum="128" parent="globals/TacticalFaceView" pc="268436200" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refreshSun&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="10" lineNum="128" parent="globals/TacticalFaceView" pc="268436211" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refreshSun&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="10" lineNum="129" parent="globals/TacticalFaceView" pc="268436215" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refreshSun&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="10" lineNum="129" parent="globals/TacticalFaceView" pc="268436247" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refreshSun&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="10" lineNum="131" parent="globals/TacticalFaceView" pc="268436251" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refreshSun&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="10" lineNum="132" parent="globals/TacticalFaceView" pc="268436268" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refreshSun&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="10" lineNum="132" parent="globals/TacticalFaceView" pc="268436274" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refreshSun&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="10" lineNum="133" parent="globals/TacticalFaceView" pc="268436281" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refreshSun&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="10" lineNum="134" parent="globals/TacticalFaceView" pc="268436304" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refreshSun&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="10" lineNum="135" parent="globals/TacticalFaceView" pc="268436327" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refreshSun&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="10" lineNum="136" parent="globals/TacticalFaceView" pc="268436342" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refreshSun&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="11" lineNum="152" parent="globals/TacticalFaceView" pc="268436359" symbol="&lt;globals/TacticalFaceView/&lt;&gt;textHalo&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="11" lineNum="153" parent="globals/TacticalFaceView" pc="268436362" symbol="&lt;globals/TacticalFaceView/&lt;&gt;textHalo&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="11" lineNum="154" parent="globals/TacticalFaceView" pc="268436374" symbol="&lt;globals/TacticalFaceView/&lt;&gt;textHalo&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="11" lineNum="155" parent="globals/TacticalFaceView" pc="268436391" symbol="&lt;globals/TacticalFaceView/&lt;&gt;textHalo&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="11" lineNum="156" parent="globals/TacticalFaceView" pc="268436403" symbol="&lt;globals/TacticalFaceView/&lt;&gt;textHalo&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="11" lineNum="157" parent="globals/TacticalFaceView" pc="268436415" symbol="&lt;globals/TacticalFaceView/&lt;&gt;textHalo&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="11" lineNum="157" parent="globals/TacticalFaceView" pc="268436429" symbol="&lt;globals/TacticalFaceView/&lt;&gt;textHalo&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="11" lineNum="160" parent="globals/TacticalFaceView" pc="268436484" symbol="&lt;globals/TacticalFaceView/&lt;&gt;textHalo&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="11" lineNum="161" parent="globals/TacticalFaceView" pc="268436497" symbol="&lt;globals/TacticalFaceView/&lt;&gt;textHalo&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="12" lineNum="63" parent="globals/TacticalFaceView" pc="268436518" symbol="onLayout"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="12" lineNum="64" parent="globals/TacticalFaceView" pc="268436520" symbol="onLayout"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="12" lineNum="64" parent="globals/TacticalFaceView" pc="268436534" symbol="onLayout"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="12" lineNum="65" parent="globals/TacticalFaceView" pc="268436548" symbol="onLayout"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="12" lineNum="65" parent="globals/TacticalFaceView" pc="268436563" symbol="onLayout"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="12" lineNum="66" parent="globals/TacticalFaceView" pc="268436578" symbol="onLayout"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="12" lineNum="67" parent="globals/TacticalFaceView" pc="268436624" symbol="onLayout"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="12" lineNum="68" parent="globals/TacticalFaceView" pc="268436662" symbol="onLayout"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="12" lineNum="69" parent="globals/TacticalFaceView" pc="268436700" symbol="onLayout"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="12" lineNum="70" parent="globals/TacticalFaceView" pc="268436738" symbol="onLayout"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="12" lineNum="71" parent="globals/TacticalFaceView" pc="268436776" symbol="onLayout"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="13" lineNum="147" parent="globals/TacticalFaceView" pc="268436784" symbol="&lt;globals/TacticalFaceView/&lt;&gt;textL&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="13" lineNum="148" parent="globals/TacticalFaceView" pc="268436786" symbol="&lt;globals/TacticalFaceView/&lt;&gt;textL&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="14" lineNum="196" parent="globals/TacticalFaceView" pc="268436807" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawSunsetIcon&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="14" lineNum="197" parent="globals/TacticalFaceView" pc="268436809" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawSunsetIcon&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="14" lineNum="198" parent="globals/TacticalFaceView" pc="268436825" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawSunsetIcon&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="14" lineNum="199" parent="globals/TacticalFaceView" pc="268436845" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawSunsetIcon&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="14" lineNum="200" parent="globals/TacticalFaceView" pc="268436880" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawSunsetIcon&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="14" lineNum="201" parent="globals/TacticalFaceView" pc="268436920" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawSunsetIcon&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="14" lineNum="202" parent="globals/TacticalFaceView" pc="268436982" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawSunsetIcon&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="14" lineNum="203" parent="globals/TacticalFaceView" pc="268437044" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawSunsetIcon&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="14" lineNum="204" parent="globals/TacticalFaceView" pc="268437106" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawSunsetIcon&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="14" lineNum="205" parent="globals/TacticalFaceView" pc="268437126" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawSunsetIcon&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="15" lineNum="79" parent="globals/TacticalFaceView" pc="268437247" symbol="&lt;globals/TacticalFaceView/&lt;&gt;scanComplications&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="15" lineNum="80" parent="globals/TacticalFaceView" pc="268437250" symbol="&lt;globals/TacticalFaceView/&lt;&gt;scanComplications&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="15" lineNum="80" parent="globals/TacticalFaceView" pc="268437266" symbol="&lt;globals/TacticalFaceView/&lt;&gt;scanComplications&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="15" lineNum="82" parent="globals/TacticalFaceView" pc="268437270" symbol="&lt;globals/TacticalFaceView/&lt;&gt;scanComplications&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="15" lineNum="83" parent="globals/TacticalFaceView" pc="268437282" symbol="&lt;globals/TacticalFaceView/&lt;&gt;scanComplications&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="15" lineNum="84" parent="globals/TacticalFaceView" pc="268437291" symbol="&lt;globals/TacticalFaceView/&lt;&gt;scanComplications&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="15" lineNum="85" parent="globals/TacticalFaceView" pc="268437297" symbol="&lt;globals/TacticalFaceView/&lt;&gt;scanComplications&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="15" lineNum="86" parent="globals/TacticalFaceView" pc="268437307" symbol="&lt;globals/TacticalFaceView/&lt;&gt;scanComplications&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="15" lineNum="86" parent="globals/TacticalFaceView" pc="268437315" symbol="&lt;globals/TacticalFaceView/&lt;&gt;scanComplications&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="15" lineNum="87" parent="globals/TacticalFaceView" pc="268437332" symbol="&lt;globals/TacticalFaceView/&lt;&gt;scanComplications&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="15" lineNum="87" parent="globals/TacticalFaceView" pc="268437340" symbol="&lt;globals/TacticalFaceView/&lt;&gt;scanComplications&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="15" lineNum="88" parent="globals/TacticalFaceView" pc="268437357" symbol="&lt;globals/TacticalFaceView/&lt;&gt;scanComplications&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="15" lineNum="88" parent="globals/TacticalFaceView" pc="268437365" symbol="&lt;globals/TacticalFaceView/&lt;&gt;scanComplications&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="15" lineNum="89" parent="globals/TacticalFaceView" pc="268437382" symbol="&lt;globals/TacticalFaceView/&lt;&gt;scanComplications&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="15" lineNum="89" parent="globals/TacticalFaceView" pc="268437390" symbol="&lt;globals/TacticalFaceView/&lt;&gt;scanComplications&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="15" lineNum="90" parent="globals/TacticalFaceView" pc="268437407" symbol="&lt;globals/TacticalFaceView/&lt;&gt;scanComplications&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="15" lineNum="90" parent="globals/TacticalFaceView" pc="268437415" symbol="&lt;globals/TacticalFaceView/&lt;&gt;scanComplications&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="15" lineNum="91" parent="globals/TacticalFaceView" pc="268437432" symbol="&lt;globals/TacticalFaceView/&lt;&gt;scanComplications&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="15" lineNum="93" parent="globals/TacticalFaceView" pc="268437450" symbol="&lt;globals/TacticalFaceView/&lt;&gt;scanComplications&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="17" lineNum="144" parent="globals/TacticalFaceView" pc="268437467" symbol="&lt;globals/TacticalFaceView/&lt;&gt;textR&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="17" lineNum="145" parent="globals/TacticalFaceView" pc="268437469" symbol="&lt;globals/TacticalFaceView/&lt;&gt;textR&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="18" lineNum="190" parent="globals/TacticalFaceView" pc="268437489" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawBolt&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="18" lineNum="191" parent="globals/TacticalFaceView" pc="268437491" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawBolt&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="18" lineNum="192" parent="globals/TacticalFaceView" pc="268437507" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawBolt&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="20" lineNum="164" parent="globals/TacticalFaceView" pc="268437734" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_fSm2&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="20" lineNum="164" parent="globals/TacticalFaceView" pc="268437736" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_fSm2&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="105" parent="globals/TacticalFaceView" pc="268437742" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="106" parent="globals/TacticalFaceView" pc="268437745" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="106" parent="globals/TacticalFaceView" pc="268437761" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="107" parent="globals/TacticalFaceView" pc="268437765" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="108" parent="globals/TacticalFaceView" pc="268437780" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="109" parent="globals/TacticalFaceView" pc="268437789" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="110" parent="globals/TacticalFaceView" pc="268437834" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="112" parent="globals/TacticalFaceView" pc="268437847" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="112" parent="globals/TacticalFaceView" pc="268437862" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="112" parent="globals/TacticalFaceView" pc="268437868" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="113" parent="globals/TacticalFaceView" pc="268437880" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="113" parent="globals/TacticalFaceView" pc="268437895" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="113" parent="globals/TacticalFaceView" pc="268437901" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="114" parent="globals/TacticalFaceView" pc="268437913" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="114" parent="globals/TacticalFaceView" pc="268437928" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="114" parent="globals/TacticalFaceView" pc="268437934" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="115" parent="globals/TacticalFaceView" pc="268437946" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="115" parent="globals/TacticalFaceView" pc="268437961" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="115" parent="globals/TacticalFaceView" pc="268437967" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="116" parent="globals/TacticalFaceView" pc="268437979" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="118" parent="globals/TacticalFaceView" pc="268437988" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="119" parent="globals/TacticalFaceView" pc="268438007" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="120" parent="globals/TacticalFaceView" pc="268438024" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="120" parent="globals/TacticalFaceView" pc="268438044" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="121" parent="globals/TacticalFaceView" pc="268438061" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="121" parent="globals/TacticalFaceView" pc="268438081" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="23" lineNum="123" parent="globals/TacticalFaceView" pc="268438113" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="24" lineNum="140" parent="globals/TacticalFaceView" pc="268438133" symbol="&lt;globals/TacticalFaceView/&lt;&gt;p&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="24" lineNum="141" parent="globals/TacticalFaceView" pc="268438135" symbol="&lt;globals/TacticalFaceView/&lt;&gt;p&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="25" lineNum="96" parent="globals/TacticalFaceView" pc="268438155" symbol="&lt;globals/TacticalFaceView/&lt;&gt;readNum&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="25" lineNum="97" parent="globals/TacticalFaceView" pc="268438158" symbol="&lt;globals/TacticalFaceView/&lt;&gt;readNum&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="25" lineNum="97" parent="globals/TacticalFaceView" pc="268438164" symbol="&lt;globals/TacticalFaceView/&lt;&gt;readNum&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="25" lineNum="99" parent="globals/TacticalFaceView" pc="268438169" symbol="&lt;globals/TacticalFaceView/&lt;&gt;readNum&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="25" lineNum="100" parent="globals/TacticalFaceView" pc="268438185" symbol="&lt;globals/TacticalFaceView/&lt;&gt;readNum&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="25" lineNum="100" parent="globals/TacticalFaceView" pc="268438211" symbol="&lt;globals/TacticalFaceView/&lt;&gt;readNum&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="25" lineNum="101" parent="globals/TacticalFaceView" pc="268438231" symbol="&lt;globals/TacticalFaceView/&lt;&gt;readNum&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="25" lineNum="102" parent="globals/TacticalFaceView" pc="268438247" symbol="&lt;globals/TacticalFaceView/&lt;&gt;readNum&gt;"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="26" lineNum="61" parent="globals/TacticalFaceView" pc="268438249" symbol="initialize"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="26" lineNum="61" parent="globals/TacticalFaceView" pc="268438251" symbol="initialize"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="215" parent="globals/TacticalFaceView" pc="268438264" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="216" parent="globals/TacticalFaceView" pc="268438267" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="217" parent="globals/TacticalFaceView" pc="268438279" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="218" parent="globals/TacticalFaceView" pc="268438291" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="219" parent="globals/TacticalFaceView" pc="268438308" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="220" parent="globals/TacticalFaceView" pc="268438320" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="221" parent="globals/TacticalFaceView" pc="268438336" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="224" parent="globals/TacticalFaceView" pc="268438353" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="225" parent="globals/TacticalFaceView" pc="268438365" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="226" parent="globals/TacticalFaceView" pc="268438373" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="227" parent="globals/TacticalFaceView" pc="268438393" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="228" parent="globals/TacticalFaceView" pc="268438449" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="230" parent="globals/TacticalFaceView" pc="268438465" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="233" parent="globals/TacticalFaceView" pc="268438476" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="234" parent="globals/TacticalFaceView" pc="268438506" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="235" parent="globals/TacticalFaceView" pc="268438537" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="238" parent="globals/TacticalFaceView" pc="268438576" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="241" parent="globals/TacticalFaceView" pc="268438645" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="244" parent="globals/TacticalFaceView" pc="268438683" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="245" parent="globals/TacticalFaceView" pc="268438691" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="245" parent="globals/TacticalFaceView" pc="268438701" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="245" parent="globals/TacticalFaceView" pc="268438708" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="245" parent="globals/TacticalFaceView" pc="268438715" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="246" parent="globals/TacticalFaceView" pc="268438725" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="247" parent="globals/TacticalFaceView" pc="268438801" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="250" parent="globals/TacticalFaceView" pc="268438843" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="251" parent="globals/TacticalFaceView" pc="268438850" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="251" parent="globals/TacticalFaceView" pc="268438859" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="252" parent="globals/TacticalFaceView" pc="268438894" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="253" parent="globals/TacticalFaceView" pc="268438901" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="254" parent="globals/TacticalFaceView" pc="268438913" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="254" parent="globals/TacticalFaceView" pc="268438930" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="255" parent="globals/TacticalFaceView" pc="268438955" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="256" parent="globals/TacticalFaceView" pc="268438998" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="257" parent="globals/TacticalFaceView" pc="268439035" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="258" parent="globals/TacticalFaceView" pc="268439042" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="259" parent="globals/TacticalFaceView" pc="268439068" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="260" parent="globals/TacticalFaceView" pc="268439079" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="261" parent="globals/TacticalFaceView" pc="268439098" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="262" parent="globals/TacticalFaceView" pc="268439132" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="266" parent="globals/TacticalFaceView" pc="268439177" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="266" parent="globals/TacticalFaceView" pc="268439186" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="268" parent="globals/TacticalFaceView" pc="268439216" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="269" parent="globals/TacticalFaceView" pc="268439225" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="271" parent="globals/TacticalFaceView" pc="268439228" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="272" parent="globals/TacticalFaceView" pc="268439260" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="272" parent="globals/TacticalFaceView" pc="268439263" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="273" parent="globals/TacticalFaceView" pc="268439266" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="274" parent="globals/TacticalFaceView" pc="268439284" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="275" parent="globals/TacticalFaceView" pc="268439294" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="276" parent="globals/TacticalFaceView" pc="268439307" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="277" parent="globals/TacticalFaceView" pc="268439325" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="278" parent="globals/TacticalFaceView" pc="268439338" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="280" parent="globals/TacticalFaceView" pc="268439354" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="281" parent="globals/TacticalFaceView" pc="268439366" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="281" parent="globals/TacticalFaceView" pc="268439370" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="282" parent="globals/TacticalFaceView" pc="268439374" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="283" parent="globals/TacticalFaceView" pc="268439398" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="285" parent="globals/TacticalFaceView" pc="268439423" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="286" parent="globals/TacticalFaceView" pc="268439439" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="287" parent="globals/TacticalFaceView" pc="268439478" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="287" parent="globals/TacticalFaceView" pc="268439490" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="288" parent="globals/TacticalFaceView" pc="268439502" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="289" parent="globals/TacticalFaceView" pc="268439518" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="290" parent="globals/TacticalFaceView" pc="268439548" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="291" parent="globals/TacticalFaceView" pc="268439568" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="293" parent="globals/TacticalFaceView" pc="268439601" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="296" parent="globals/TacticalFaceView" pc="268439607" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="297" parent="globals/TacticalFaceView" pc="268439614" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="298" parent="globals/TacticalFaceView" pc="268439632" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="299" parent="globals/TacticalFaceView" pc="268439652" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="301" parent="globals/TacticalFaceView" pc="268439705" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="304" parent="globals/TacticalFaceView" pc="268439741" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="305" parent="globals/TacticalFaceView" pc="268439764" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="306" parent="globals/TacticalFaceView" pc="268439777" symbol="onUpdate"/>
+        <entry filename="/Users/mac/Desktop/garmin/TacticalFace/source/TacticalFaceView.mc" id="27" lineNum="307" parent="globals/TacticalFaceView" pc="268439812" symbol="onUpdate"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="42" method="true" symbol="&lt;globals/TacticalFaceView/&lt;&gt;textHalo&gt;"/>
+        <entry field="true" id="13" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_cy&gt;"/>
+        <entry field="true" id="12" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_cx&gt;"/>
+        <entry field="true" id="32" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_w&gt;"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="21" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_run&gt;"/>
+        <entry id="41" method="true" symbol="&lt;globals/TacticalFaceView/&lt;&gt;scanComplications&gt;"/>
+        <entry field="true" id="22" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_runId&gt;"/>
+        <entry field="true" id="18" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_h&gt;"/>
+        <entry field="true" id="28" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_stressId&gt;"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="17" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_fTime&gt;"/>
+        <entry field="true" id="24" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_scanAt&gt;"/>
+        <entry field="true" id="11" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_bbId&gt;"/>
+        <entry field="true" id="23" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_scale&gt;"/>
+        <entry id="16" method="true" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_fSm2&gt;"/>
+        <entry field="true" id="50" symbol="AppName"/>
+        <entry id="8388633" module="true" symbol="ActivityMonitor"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8" symbol="&lt;globals/TacticalFaceView/&lt;&gt;DOW&gt;"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry field="true" id="9" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_band&gt;"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry field="true" id="10" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_bb&gt;"/>
+        <entry field="true" id="26" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_setSec&gt;"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="6" object="true" symbol="TacticalFaceApp"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="29" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_sunDay&gt;"/>
+        <entry id="37" method="true" symbol="&lt;globals/TacticalFaceView/&lt;&gt;p&gt;"/>
+        <entry id="8391489" module="true" symbol="Weather"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="44" method="true" symbol="&lt;globals/TacticalFaceView/&lt;&gt;textR&gt;"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry id="43" method="true" symbol="&lt;globals/TacticalFaceView/&lt;&gt;textL&gt;"/>
+        <entry id="7" object="true" symbol="TacticalFaceView"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry field="true" id="14" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_fMd&gt;"/>
+        <entry id="39" method="true" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;"/>
+        <entry field="true" id="15" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_fSm&gt;"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="30" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_sunrise&gt;"/>
+        <entry id="35" method="true" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawTopArc&gt;"/>
+        <entry field="true" id="27" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_stress&gt;"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="46" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="33" method="true" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawBolt&gt;"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8391962" module="true" symbol="Complications"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="38" method="true" symbol="&lt;globals/TacticalFaceView/&lt;&gt;readNum&gt;"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="36" method="true" symbol="&lt;globals/TacticalFaceView/&lt;&gt;hhmm&gt;"/>
+        <entry field="true" id="20" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_riseSec&gt;"/>
+        <entry field="true" id="49" symbol="MonoTime"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry field="true" id="48" symbol="MonoSm"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="47" symbol="MonoMd"/>
+        <entry field="true" id="31" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_sunset&gt;"/>
+        <entry field="true" id="45" symbol="BandBmp"/>
+        <entry field="true" id="25" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_setId&gt;"/>
+        <entry field="true" id="19" symbol="&lt;globals/TacticalFaceView/&lt;&gt;_riseId&gt;"/>
+        <entry id="8388642" module="true" symbol="Position"/>
+        <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="34" method="true" symbol="&lt;globals/TacticalFaceView/&lt;&gt;drawSunsetIcon&gt;"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry id="40" method="true" symbol="&lt;globals/TacticalFaceView/&lt;&gt;refreshSun&gt;"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268436115" name="dc" stackId="1" startPc="268435553"/>
+        <entry endPc="268436114" name="starts" stackId="2" startPc="268435556"/>
+        <entry endPc="268435698" name="i" stackId="3" startPc="268435610"/>
+        <entry endPc="268435688" name="a0" stackId="4" startPc="268435610"/>
+        <entry endPc="268435688" name="a1" stackId="5" startPc="268435610"/>
+        <entry endPc="268435688" name="d0" stackId="6" startPc="268435610"/>
+        <entry endPc="268435688" name="d1" stackId="7" startPc="268435610"/>
+        <entry endPc="268436114" name="ri" stackId="8" startPc="268435556"/>
+        <entry endPc="268436114" name="ro" stackId="9" startPc="268435556"/>
+        <entry endPc="268436114" name="c0" stackId="10" startPc="268435556"/>
+        <entry endPc="268436114" name="c1" stackId="11" startPc="268435556"/>
+        <entry endPc="268436114" name="e0" stackId="12" startPc="268435556"/>
+        <entry endPc="268436114" name="e1" stackId="13" startPc="268435556"/>
+        <entry arg="true" endPc="268436196" name="m" stackId="1" startPc="268436116"/>
+        <entry endPc="268436196" name="i" stackId="2" startPc="268436119"/>
+        <entry arg="true" endPc="268436358" name="now" stackId="1" startPc="268436197"/>
+        <entry arg="true" endPc="268436358" name="today" stackId="2" startPc="268436197"/>
+        <entry endPc="268436335" name="loc" stackId="3" startPc="268436251"/>
+        <entry endPc="268436352" name="e" stackId="4" startPc="268436342"/>
+        <entry arg="true" endPc="268436517" name="dc" stackId="1" startPc="268436359"/>
+        <entry arg="true" endPc="268436517" name="x" stackId="2" startPc="268436359"/>
+        <entry arg="true" endPc="268436517" name="y" stackId="3" startPc="268436359"/>
+        <entry arg="true" endPc="268436517" name="f" stackId="4" startPc="268436359"/>
+        <entry arg="true" endPc="268436517" name="s" stackId="5" startPc="268436359"/>
+        <entry endPc="268436516" name="d" stackId="6" startPc="268436362"/>
+        <entry endPc="268436483" name="i" stackId="7" startPc="268436403"/>
+        <entry endPc="268436473" name="j" stackId="8" startPc="268436415"/>
+        <entry arg="true" endPc="268436783" name="dc" stackId="1" startPc="268436518"/>
+        <entry arg="true" endPc="268436806" name="dc" stackId="1" startPc="268436784"/>
+        <entry arg="true" endPc="268436806" name="x" stackId="2" startPc="268436784"/>
+        <entry arg="true" endPc="268436806" name="y" stackId="3" startPc="268436784"/>
+        <entry arg="true" endPc="268436806" name="f" stackId="4" startPc="268436784"/>
+        <entry arg="true" endPc="268436806" name="s" stackId="5" startPc="268436784"/>
+        <entry arg="true" endPc="268437246" name="dc" stackId="1" startPc="268436807"/>
+        <entry arg="true" endPc="268437246" name="x" stackId="2" startPc="268436807"/>
+        <entry arg="true" endPc="268437246" name="y" stackId="3" startPc="268436807"/>
+        <entry endPc="268437443" name="it" stackId="1" startPc="268437270"/>
+        <entry endPc="268437443" name="c" stackId="2" startPc="268437270"/>
+        <entry endPc="268437440" name="t" stackId="3" startPc="268437297"/>
+        <entry endPc="268437460" name="e" stackId="4" startPc="268437450"/>
+        <entry arg="true" endPc="268437488" name="dc" stackId="1" startPc="268437467"/>
+        <entry arg="true" endPc="268437488" name="x" stackId="2" startPc="268437467"/>
+        <entry arg="true" endPc="268437488" name="y" stackId="3" startPc="268437467"/>
+        <entry arg="true" endPc="268437488" name="f" stackId="4" startPc="268437467"/>
+        <entry arg="true" endPc="268437488" name="s" stackId="5" startPc="268437467"/>
+        <entry arg="true" endPc="268437733" name="dc" stackId="1" startPc="268437489"/>
+        <entry arg="true" endPc="268437733" name="x" stackId="2" startPc="268437489"/>
+        <entry arg="true" endPc="268437733" name="y" stackId="3" startPc="268437489"/>
+        <entry arg="true" endPc="268438132" name="now" stackId="1" startPc="268437742"/>
+        <entry endPc="268438131" name="v" stackId="2" startPc="268437745"/>
+        <entry endPc="268438106" name="c" stackId="3" startPc="268437988"/>
+        <entry endPc="268438123" name="e" stackId="4" startPc="268438113"/>
+        <entry arg="true" endPc="268438154" name="v" stackId="1" startPc="268438133"/>
+        <entry arg="true" endPc="268438248" name="id" stackId="1" startPc="268438155"/>
+        <entry endPc="268438224" name="c" stackId="2" startPc="268438169"/>
+        <entry endPc="268438241" name="e" stackId="3" startPc="268438231"/>
+        <entry arg="true" endPc="268439854" name="dc" stackId="1" startPc="268438264"/>
+        <entry endPc="268439853" name="clock" stackId="2" startPc="268438267"/>
+        <entry endPc="268439853" name="now" stackId="3" startPc="268438267"/>
+        <entry endPc="268439853" name="info" stackId="4" startPc="268438267"/>
+        <entry endPc="268439853" name="ds" stackId="5" startPc="268438267"/>
+        <entry endPc="268439853" name="battStr" stackId="6" startPc="268438267"/>
+        <entry endPc="268439853" name="dateStr" stackId="7" startPc="268438267"/>
+        <entry endPc="268439853" name="hour" stackId="8" startPc="268438267"/>
+        <entry endPc="268439853" name="runStr" stackId="9" startPc="268438267"/>
+        <entry endPc="268439853" name="elevStr" stackId="10" startPc="268438267"/>
+        <entry endPc="268439853" name="am" stackId="11" startPc="268438267"/>
+        <entry endPc="268439853" name="bodyStr" stackId="12" startPc="268438267"/>
+        <entry endPc="268439853" name="strStr" stackId="13" startPc="268438267"/>
+        <entry endPc="268439853" name="labels" stackId="14" startPc="268438267"/>
+        <entry endPc="268439853" name="values" stackId="15" startPc="268438267"/>
+        <entry endPc="268439176" name="i" stackId="16" startPc="268439079"/>
+        <entry endPc="268439166" name="ry" stackId="17" startPc="268439079"/>
+        <entry endPc="268439853" name="nv" stackId="18" startPc="268438267"/>
+        <entry endPc="268439853" name="showSet" stackId="19" startPc="268438267"/>
+        <entry endPc="268439853" name="midnight" stackId="20" startPc="268438267"/>
+        <entry endPc="268439853" name="srAbs" stackId="21" startPc="268438267"/>
+        <entry endPc="268439853" name="ssAbs" stackId="22" startPc="268438267"/>
+        <entry endPc="268439603" name="sr" stackId="23" startPc="268439366"/>
+        <entry endPc="268439603" name="ss" stackId="24" startPc="268439366"/>
+        <entry endPc="268439597" name="f" stackId="25" startPc="268439398"/>
+        <entry endPc="268439597" name="dxu" stackId="26" startPc="268439398"/>
+        <entry endPc="268439597" name="dyu" stackId="27" startPc="268439398"/>
+        <entry endPc="268439597" name="bxx" stackId="28" startPc="268439398"/>
+        <entry endPc="268439597" name="byy" stackId="29" startPc="268439398"/>
+        <entry endPc="268439853" name="sunStr" stackId="30" startPc="268438267"/>
+        <entry endPc="268439701" name="sec" stackId="31" startPc="268439632"/>
+        <entry endPc="268439853" name="tw" stackId="32" startPc="268438267"/>
+        <entry endPc="268439853" name="sx" stackId="33" startPc="268438267"/>
+    </localVars>
+    <deviceInfo deviceVersion="5c7ae9cf907f88c116a91dc4ffd75be9b5b7d2e9" partNumber="006-B4575-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="MonoTime"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="MonoSm"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BandBmp"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="MonoMd"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="58" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/TacticalFaceApp" offset="116" parentId="globals" symbolId="TacticalFaceApp" type="class"/>
+        <dataEntry label="globals/Rez" offset="187" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/TacticalFaceView" offset="240" parentId="globals" symbolId="TacticalFaceView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="671" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="715" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="768" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="TacticalFaceApp" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435491" name="&lt;init&gt;" parent="Rez" startPc="268435472">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435503" name="&lt;init&gt;" parent="TacticalFaceView" startPc="268435492">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435506" name="onStart" parent="TacticalFaceApp" startPc="268435504">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435534" name="getInitialView" parent="TacticalFaceApp" startPc="268435507">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435549" name="initialize" parent="TacticalFaceApp" startPc="268435535">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435552" name="onStop" parent="TacticalFaceApp" startPc="268435550">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436115" name="&lt;globals/TacticalFaceView/&lt;&gt;drawTopArc&gt;" parent="TacticalFaceView" startPc="268435553">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436196" name="&lt;globals/TacticalFaceView/&lt;&gt;hhmm&gt;" parent="TacticalFaceView" startPc="268436116">
+            <param id="m"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436358" name="&lt;globals/TacticalFaceView/&lt;&gt;refreshSun&gt;" parent="TacticalFaceView" startPc="268436197">
+            <param id="now"/>
+            <param id="today"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436517" name="&lt;globals/TacticalFaceView/&lt;&gt;textHalo&gt;" parent="TacticalFaceView" startPc="268436359">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <param id="f"/>
+            <param id="s"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436783" name="onLayout" parent="TacticalFaceView" startPc="268436518">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436806" name="&lt;globals/TacticalFaceView/&lt;&gt;textL&gt;" parent="TacticalFaceView" startPc="268436784">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <param id="f"/>
+            <param id="s"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437246" name="&lt;globals/TacticalFaceView/&lt;&gt;drawSunsetIcon&gt;" parent="TacticalFaceView" startPc="268436807">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437466" name="&lt;globals/TacticalFaceView/&lt;&gt;scanComplications&gt;" parent="TacticalFaceView" startPc="268437247">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="TacticalFaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437488" name="&lt;globals/TacticalFaceView/&lt;&gt;textR&gt;" parent="TacticalFaceView" startPc="268437467">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <param id="f"/>
+            <param id="s"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437733" name="&lt;globals/TacticalFaceView/&lt;&gt;drawBolt&gt;" parent="TacticalFaceView" startPc="268437489">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="TacticalFaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437741" name="&lt;globals/TacticalFaceView/&lt;&gt;_fSm2&gt;" parent="TacticalFaceView" startPc="268437734">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="TacticalFaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="TacticalFaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438132" name="&lt;globals/TacticalFaceView/&lt;&gt;refresh&gt;" parent="TacticalFaceView" startPc="268437742">
+            <param id="now"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438154" name="&lt;globals/TacticalFaceView/&lt;&gt;p&gt;" parent="TacticalFaceView" startPc="268438133">
+            <param id="v"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438248" name="&lt;globals/TacticalFaceView/&lt;&gt;readNum&gt;" parent="TacticalFaceView" startPc="268438155">
+            <param id="id"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438263" name="initialize" parent="TacticalFaceView" startPc="268438249">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439854" name="onUpdate" parent="TacticalFaceView" startPc="268438264">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

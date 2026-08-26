@@ -1,0 +1,1528 @@
+[ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [BandBmp,9,27,34]; @symbol_type<0> = [ResourceId,9,38,48]; ]
+        var BandBmp as ResourceId;
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 10; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,10,27,39]; @symbol_type<0> = [ResourceId,10,43,53]; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 13; @symbol_moduledef = [Fonts,13,11,16]; ]
+    module Fonts {
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 13; ]
+        <init> {
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 14; @position = 27; initialized = true; @symbol_vardef = [MonoTime,14,27,35]; @symbol_type<0> = [ResourceId,14,39,49]; ]
+        var MonoTime as ResourceId;
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 15; @position = 27; initialized = true; @symbol_vardef = [MonoMd,15,27,33]; @symbol_type<0> = [ResourceId,15,37,47]; ]
+        var MonoMd as ResourceId;
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 16; @position = 27; initialized = true; @symbol_vardef = [MonoSm,16,27,33]; @symbol_type<0> = [ResourceId,16,37,47]; ]
+        var MonoSm as ResourceId;
+    }
+    [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 19; @symbol_moduledef = [Strings,19,11,18]; ]
+    module Strings {
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 19; ]
+        <init> {
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 20; @position = 27; initialized = true; @symbol_vardef = [AppName,20,27,34]; @symbol_type<0> = [ResourceId,20,38,48]; ]
+        var AppName as ResourceId;
+    }
+    [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 23; @symbol_moduledef = [Styles,23,11,17]; ]
+    module Styles {
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 23; ]
+        <init> {
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 24; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,24,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 24; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 25 18 ]
+                symbol [ Graphics %tmp.1 25 34 42 ];
+                %tmp.1 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.2 25 43 62 ];
+                %tmp.2 = getv %tmp.1 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.3 25 63 71 ];
+                %tmp.3 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.4 25 72 92 ];
+                %tmp.4 = getv %tmp.3 :TEXT_JUSTIFY_VCENTER;
+                %tmp.5 = bitor %tmp.2 %tmp.4;
+                putv self :justification %tmp.5;
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 26 18 ]
+                symbol [ Graphics %tmp.6 26 25 33 ];
+                %tmp.6 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.7 26 34 43 ];
+                %tmp.7 = getv %tmp.6 :FONT_TINY;
+                putv self :font %tmp.7;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 25; @position = 18; @symbol_constdef = [justification,25,18,31]; ]
+            const justification;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 26; @position = 18; @symbol_constdef = [font,26,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 29; @symbol_moduledef = [system_size__menu_header,29,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 29; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 30; @position = 18; @symbol_constdef = [width,30,18,23]; @symbol_type<0> = [Number,30,27,33]; ]
+            const width as Number = 280;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 31; @position = 18; @symbol_constdef = [height,31,18,24]; @symbol_type<0> = [Number,31,28,34]; ]
+            const height as Number = 95;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 34; @symbol_moduledef = [system_loc__hint_button_left_bottom,34,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 34; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 35; @position = 18; @symbol_constdef = [x,35,18,19]; @symbol_type<0> = [Number,35,23,29]; ]
+            const x as Number = 7;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 36; @position = 18; @symbol_constdef = [y,36,18,19]; @symbol_type<0> = [Number,36,23,29]; ]
+            const y as Number = 179;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 39; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,39,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 39; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 40 18 ]
+                symbol [ Graphics %tmp.8 40 34 42 ];
+                %tmp.8 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.9 40 43 62 ];
+                %tmp.9 = getv %tmp.8 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.10 40 63 71 ];
+                %tmp.10 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.11 40 72 92 ];
+                %tmp.11 = getv %tmp.10 :TEXT_JUSTIFY_VCENTER;
+                %tmp.12 = bitor %tmp.9 %tmp.11;
+                putv self :justification %tmp.12;
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 41 18 ]
+                symbol [ Graphics %tmp.13 41 25 33 ];
+                %tmp.13 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.14 41 34 43 ];
+                %tmp.14 = getv %tmp.13 :FONT_TINY;
+                putv self :font %tmp.14;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 40; @position = 18; @symbol_constdef = [justification,40,18,31]; ]
+            const justification;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 41; @position = 18; @symbol_constdef = [font,41,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 44; @symbol_moduledef = [prompt_loc__body_no_title,44,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 44; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 45; @position = 18; @symbol_constdef = [x,45,18,19]; @symbol_type<0> = [Number,45,23,29]; ]
+            const x as Number = 28;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 46; @position = 18; @symbol_constdef = [y,46,18,19]; @symbol_type<0> = [Number,46,23,29]; ]
+            const y as Number = 28;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 49; @symbol_moduledef = [system_icon_dark__about,49,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 49; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 50; @position = 18; @symbol_constdef = [filename,50,18,26]; @symbol_type<0> = [String,50,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__about.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 51; @position = 18; @symbol_constdef = [compress,51,18,26]; @symbol_type<0> = [String,51,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 52; @position = 18; @symbol_constdef = [dithering,52,18,27]; @symbol_type<0> = [String,52,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 53; @position = 18; @symbol_constdef = [automaticPalette,53,18,34]; @symbol_type<0> = [String,53,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 56; @symbol_moduledef = [system_icon_light__question,56,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 56; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 57; @position = 18; @symbol_constdef = [filename,57,18,26]; @symbol_type<0> = [String,57,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__question.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 58; @position = 18; @symbol_constdef = [dithering,58,18,27]; @symbol_type<0> = [String,58,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 61; @symbol_moduledef = [system_loc__hint_button_left_top,61,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 61; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 62; @position = 18; @symbol_constdef = [exclude,62,18,25]; @symbol_type<0> = [Boolean,62,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 65; @symbol_moduledef = [prompt_font__title,65,15,33]; ]
+        module prompt_font__title {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 65; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 66 18 ]
+                symbol [ Graphics %tmp.15 66 34 42 ];
+                %tmp.15 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.16 66 43 62 ];
+                %tmp.16 = getv %tmp.15 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.17 66 63 71 ];
+                %tmp.17 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.18 66 72 92 ];
+                %tmp.18 = getv %tmp.17 :TEXT_JUSTIFY_VCENTER;
+                %tmp.19 = bitor %tmp.16 %tmp.18;
+                putv self :justification %tmp.19;
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 67 18 ]
+                symbol [ Graphics %tmp.20 67 25 33 ];
+                %tmp.20 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.21 67 34 43 ];
+                %tmp.21 = getv %tmp.20 :FONT_TINY;
+                putv self :font %tmp.21;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 66; @position = 18; @symbol_constdef = [justification,66,18,31]; ]
+            const justification;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 67; @position = 18; @symbol_constdef = [font,67,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 70; @symbol_moduledef = [system_icon_dark__discard,70,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 70; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 71; @position = 18; @symbol_constdef = [filename,71,18,26]; @symbol_type<0> = [String,71,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__discard.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 72; @position = 18; @symbol_constdef = [compress,72,18,26]; @symbol_type<0> = [String,72,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 73; @position = 18; @symbol_constdef = [dithering,73,18,27]; @symbol_type<0> = [String,73,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 74; @position = 18; @symbol_constdef = [automaticPalette,74,18,34]; @symbol_type<0> = [String,74,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 77; @symbol_moduledef = [system_size__menu_item,77,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 77; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 78; @position = 18; @symbol_constdef = [width,78,18,23]; @symbol_type<0> = [Number,78,27,33]; ]
+            const width as Number = 280;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 79; @position = 18; @symbol_constdef = [height,79,18,24]; @symbol_type<0> = [Number,79,28,34]; ]
+            const height as Number = 89;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 82; @symbol_moduledef = [system_color_dark__text,82,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 82; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 84 18 ]
+                symbol [ Graphics %tmp.22 84 31 39 ];
+                %tmp.22 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.23 84 40 57 ];
+                %tmp.23 = getv %tmp.22 :COLOR_TRANSPARENT;
+                putv self :background %tmp.23;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 83; @position = 18; @symbol_constdef = [color,83,18,23]; @symbol_type<0> = [Number,83,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 84; @position = 18; @symbol_constdef = [background,84,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 87; @symbol_moduledef = [system_icon_destructive__discard,87,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 87; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 88; @position = 18; @symbol_constdef = [filename,88,18,26]; @symbol_type<0> = [String,88,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_destructive__discard.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 89; @position = 18; @symbol_constdef = [dithering,89,18,27]; @symbol_type<0> = [String,89,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 92; @symbol_moduledef = [system_icon_dark__hint_action_menu,92,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 92; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 93; @position = 18; @symbol_constdef = [filename,93,18,26]; @symbol_type<0> = [String,93,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 94; @position = 18; @symbol_constdef = [dithering,94,18,27]; @symbol_type<0> = [String,94,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 97; @symbol_moduledef = [prompt_size__title,97,15,33]; ]
+        module prompt_size__title {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 97; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 98; @position = 18; @symbol_constdef = [width,98,18,23]; @symbol_type<0> = [Number,98,27,33]; ]
+            const width as Number = 224;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 99; @position = 18; @symbol_constdef = [height,99,18,24]; @symbol_type<0> = [Number,99,28,34]; ]
+            const height as Number = 42;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 102; @symbol_moduledef = [confirmation_font__body,102,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 102; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 103 18 ]
+                symbol [ Graphics %tmp.24 103 34 42 ];
+                %tmp.24 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.25 103 43 62 ];
+                %tmp.25 = getv %tmp.24 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.26 103 63 71 ];
+                %tmp.26 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.27 103 72 92 ];
+                %tmp.27 = getv %tmp.26 :TEXT_JUSTIFY_VCENTER;
+                %tmp.28 = bitor %tmp.25 %tmp.27;
+                putv self :justification %tmp.28;
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 104 18 ]
+                symbol [ Graphics %tmp.29 104 25 33 ];
+                %tmp.29 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.30 104 34 43 ];
+                %tmp.30 = getv %tmp.29 :FONT_TINY;
+                putv self :font %tmp.30;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 103; @position = 18; @symbol_constdef = [justification,103,18,31]; ]
+            const justification;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 104; @position = 18; @symbol_constdef = [font,104,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 107; @symbol_moduledef = [system_color_dark__background,107,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 107; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 108; @position = 18; @symbol_constdef = [color,108,18,23]; @symbol_type<0> = [Number,108,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 109; @position = 18; @symbol_constdef = [background,109,18,28]; @symbol_type<0> = [Number,109,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 112; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,112,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 112; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 113; @position = 18; @symbol_constdef = [filename,113,18,26]; @symbol_type<0> = [String,113,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_destructive__hint_button_left_top.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 114; @position = 18; @symbol_constdef = [dithering,114,18,27]; @symbol_type<0> = [String,114,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 117; @symbol_moduledef = [system_size__launch_icon,117,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 117; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 118; @position = 18; @symbol_constdef = [scaleX,118,18,24]; @symbol_type<0> = [Number,118,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 119; @position = 18; @symbol_constdef = [scaleY,119,18,24]; @symbol_type<0> = [Number,119,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 120; @position = 18; @symbol_constdef = [scaleRelativeTo,120,18,33]; @symbol_type<0> = [String,120,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 123; @symbol_moduledef = [confirmation_input__confirm,123,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 123; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 124 18 ]
+                symbol [ WatchUi %tmp.31 124 27 34 ];
+                %tmp.31 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.32 124 35 44 ];
+                %tmp.32 = getv %tmp.31 :KEY_ENTER;
+                putv self :button %tmp.32;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 124; @position = 18; @symbol_constdef = [button,124,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 127; @symbol_moduledef = [prompt_font__body_with_title,127,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 127; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 128 18 ]
+                symbol [ Graphics %tmp.33 128 34 42 ];
+                %tmp.33 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.34 128 43 62 ];
+                %tmp.34 = getv %tmp.33 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.34;
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 129 18 ]
+                symbol [ Graphics %tmp.35 129 25 33 ];
+                %tmp.35 = getm $.Toybox.Graphics;
+                symbol [ FONT_GLANCE %tmp.36 129 34 45 ];
+                %tmp.36 = getv %tmp.35 :FONT_GLANCE;
+                putv self :font %tmp.36;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 128; @position = 18; @symbol_constdef = [justification,128,18,31]; ]
+            const justification;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 129; @position = 18; @symbol_constdef = [font,129,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 132; @symbol_moduledef = [confirmation_loc__body,132,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 132; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 133; @position = 18; @symbol_constdef = [x,133,18,19]; @symbol_type<0> = [Number,133,23,29]; ]
+            const x as Number = 56;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 134; @position = 18; @symbol_constdef = [y,134,18,19]; @symbol_type<0> = [Number,134,23,29]; ]
+            const y as Number = 56;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 137; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,137,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 137; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 138; @position = 18; @symbol_constdef = [filename,138,18,26]; @symbol_type<0> = [String,138,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_destructive__hint_button_left_bottom.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 139; @position = 18; @symbol_constdef = [dithering,139,18,27]; @symbol_type<0> = [String,139,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 142; @symbol_moduledef = [prompt_color_dark__background,142,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 142; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 143; @position = 18; @symbol_constdef = [color,143,18,23]; @symbol_type<0> = [Number,143,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 144; @position = 18; @symbol_constdef = [background,144,18,28]; @symbol_type<0> = [Number,144,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 147; @symbol_moduledef = [system_icon_destructive__hint_action_menu,147,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 147; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 148; @position = 18; @symbol_constdef = [filename,148,18,26]; @symbol_type<0> = [String,148,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 149; @position = 18; @symbol_constdef = [dithering,149,18,27]; @symbol_type<0> = [String,149,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 152; @symbol_moduledef = [system_loc__hint_action_menu,152,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 152; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 153; @position = 18; @symbol_constdef = [x,153,18,19]; @symbol_type<0> = [Number,153,23,29]; ]
+            const x as Number = 222;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 154; @position = 18; @symbol_constdef = [y,154,18,19]; @symbol_type<0> = [Number,154,23,29]; ]
+            const y as Number = 44;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 157; @symbol_moduledef = [confirmation_icon__hint_confirm,157,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 157; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 158; @position = 18; @symbol_constdef = [filename,158,18,26]; @symbol_type<0> = [String,158,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 159; @position = 18; @symbol_constdef = [dithering,159,18,27]; @symbol_type<0> = [String,159,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 162; @symbol_moduledef = [system_loc__hint_button_left_middle,162,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 162; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 163; @position = 18; @symbol_constdef = [x,163,18,19]; @symbol_type<0> = [Number,163,23,29]; ]
+            const x as Number = 0;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 164; @position = 18; @symbol_constdef = [y,164,18,19]; @symbol_type<0> = [Number,164,23,29]; ]
+            const y as Number = 110;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 167; @symbol_moduledef = [prompt_size__body_no_title,167,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 167; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 168; @position = 18; @symbol_constdef = [width,168,18,23]; @symbol_type<0> = [Number,168,27,33]; ]
+            const width as Number = 224;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 169; @position = 18; @symbol_constdef = [height,169,18,24]; @symbol_type<0> = [Number,169,28,34]; ]
+            const height as Number = 224;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 172; @symbol_moduledef = [system_icon_light__hint_button_left_top,172,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 172; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 173; @position = 18; @symbol_constdef = [filename,173,18,26]; @symbol_type<0> = [String,173,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__hint_button_left_top.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 174; @position = 18; @symbol_constdef = [dithering,174,18,27]; @symbol_type<0> = [String,174,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 177; @symbol_moduledef = [prompt_color_light__background,177,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 177; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 178; @position = 18; @symbol_constdef = [color,178,18,23]; @symbol_type<0> = [Number,178,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 179; @position = 18; @symbol_constdef = [background,179,18,28]; @symbol_type<0> = [Number,179,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 182; @symbol_moduledef = [confirmation_input__delete,182,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 182; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 183 18 ]
+                symbol [ WatchUi %tmp.37 183 27 34 ];
+                %tmp.37 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.38 183 35 44 ];
+                %tmp.38 = getv %tmp.37 :KEY_ENTER;
+                putv self :button %tmp.38;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 183; @position = 18; @symbol_constdef = [button,183,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 186; @symbol_moduledef = [system_icon_dark__hint_button_left_top,186,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 186; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 187; @position = 18; @symbol_constdef = [filename,187,18,26]; @symbol_type<0> = [String,187,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__hint_button_left_top.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 188; @position = 18; @symbol_constdef = [dithering,188,18,27]; @symbol_type<0> = [String,188,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 191; @symbol_moduledef = [system_input__action_menu,191,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 191; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 192 18 ]
+                symbol [ WatchUi %tmp.39 192 27 34 ];
+                %tmp.39 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.40 192 35 44 ];
+                %tmp.40 = getv %tmp.39 :KEY_ENTER;
+                putv self :button %tmp.40;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 192; @position = 18; @symbol_constdef = [button,192,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 195; @symbol_moduledef = [system_icon_light__save,195,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 195; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 196; @position = 18; @symbol_constdef = [filename,196,18,26]; @symbol_type<0> = [String,196,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__save.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 197; @position = 18; @symbol_constdef = [dithering,197,18,27]; @symbol_type<0> = [String,197,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 200; @symbol_moduledef = [prompt_color_light__body,200,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 200; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 202 18 ]
+                symbol [ Graphics %tmp.41 202 31 39 ];
+                %tmp.41 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.42 202 40 57 ];
+                %tmp.42 = getv %tmp.41 :COLOR_TRANSPARENT;
+                putv self :background %tmp.42;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 201; @position = 18; @symbol_constdef = [color,201,18,23]; @symbol_type<0> = [Number,201,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 202; @position = 18; @symbol_constdef = [background,202,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 205; @symbol_moduledef = [system_loc__subwindow,205,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 205; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 206; @position = 18; @symbol_constdef = [exclude,206,18,25]; @symbol_type<0> = [Boolean,206,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 209; @symbol_moduledef = [system_icon_light__warning,209,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 209; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 210; @position = 18; @symbol_constdef = [filename,210,18,26]; @symbol_type<0> = [String,210,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__warning.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 211; @position = 18; @symbol_constdef = [dithering,211,18,27]; @symbol_type<0> = [String,211,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 214; @symbol_moduledef = [confirmation_color_light__body,214,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 214; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 216 18 ]
+                symbol [ Graphics %tmp.43 216 31 39 ];
+                %tmp.43 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.44 216 40 57 ];
+                %tmp.44 = getv %tmp.43 :COLOR_TRANSPARENT;
+                putv self :background %tmp.44;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 215; @position = 18; @symbol_constdef = [color,215,18,23]; @symbol_type<0> = [Number,215,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 216; @position = 18; @symbol_constdef = [background,216,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 219; @symbol_moduledef = [confirmation_icon_light__hint_keep,219,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 219; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 220; @position = 18; @symbol_constdef = [filename,220,18,26]; @symbol_type<0> = [String,220,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 221; @position = 18; @symbol_constdef = [dithering,221,18,27]; @symbol_type<0> = [String,221,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 224; @symbol_moduledef = [activity_color_light__background,224,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 224; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 225; @position = 18; @symbol_constdef = [color,225,18,23]; @symbol_type<0> = [Number,225,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 226; @position = 18; @symbol_constdef = [background,226,18,28]; @symbol_type<0> = [Number,226,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 229; @symbol_moduledef = [system_icon_positive__hint_button_right_top,229,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 229; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 230; @position = 18; @symbol_constdef = [filename,230,18,26]; @symbol_type<0> = [String,230,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 231; @position = 18; @symbol_constdef = [dithering,231,18,27]; @symbol_type<0> = [String,231,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 234; @symbol_moduledef = [system_size__screen,234,15,34]; ]
+        module system_size__screen {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 234; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 235; @position = 18; @symbol_constdef = [width,235,18,23]; @symbol_type<0> = [Number,235,27,33]; ]
+            const width as Number = 280;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 236; @position = 18; @symbol_constdef = [height,236,18,24]; @symbol_type<0> = [Number,236,28,34]; ]
+            const height as Number = 280;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 239; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,239,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 239; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 240; @position = 18; @symbol_constdef = [filename,240,18,26]; @symbol_type<0> = [String,240,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 241; @position = 18; @symbol_constdef = [dithering,241,18,27]; @symbol_type<0> = [String,241,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 244; @symbol_moduledef = [system_color_light__background,244,15,45]; ]
+        module system_color_light__background {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 244; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 245; @position = 18; @symbol_constdef = [color,245,18,23]; @symbol_type<0> = [Number,245,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 246; @position = 18; @symbol_constdef = [background,246,18,28]; @symbol_type<0> = [Number,246,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 249; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,249,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 249; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 250; @position = 18; @symbol_constdef = [filename,250,18,26]; @symbol_type<0> = [String,250,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 251; @position = 18; @symbol_constdef = [dithering,251,18,27]; @symbol_type<0> = [String,251,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 254; @symbol_moduledef = [confirmation_loc__hint_confirm,254,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 254; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 255; @position = 18; @symbol_constdef = [x,255,18,19]; @symbol_type<0> = [Number,255,23,29]; ]
+            const x as Number = 222;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 256; @position = 18; @symbol_constdef = [y,256,18,19]; @symbol_type<0> = [Number,256,23,29]; ]
+            const y as Number = 44;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 259; @symbol_moduledef = [activity_color_dark__text,259,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 259; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 261 18 ]
+                symbol [ Graphics %tmp.45 261 31 39 ];
+                %tmp.45 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.46 261 40 57 ];
+                %tmp.46 = getv %tmp.45 :COLOR_TRANSPARENT;
+                putv self :background %tmp.46;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 260; @position = 18; @symbol_constdef = [color,260,18,23]; @symbol_type<0> = [Number,260,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 261; @position = 18; @symbol_constdef = [background,261,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 264; @symbol_moduledef = [confirmation_input__keep,264,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 264; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 265 18 ]
+                symbol [ WatchUi %tmp.47 265 27 34 ];
+                %tmp.47 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.48 265 35 43 ];
+                %tmp.48 = getv %tmp.47 :KEY_DOWN;
+                putv self :button %tmp.48;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 265; @position = 18; @symbol_constdef = [button,265,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 268; @symbol_moduledef = [prompt_loc__body_with_title,268,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 268; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 269; @position = 18; @symbol_constdef = [x,269,18,19]; @symbol_type<0> = [Number,269,23,29]; ]
+            const x as Number = 28;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 270; @position = 18; @symbol_constdef = [y,270,18,19]; @symbol_type<0> = [Number,270,23,29]; ]
+            const y as Number = 84;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 273; @symbol_moduledef = [system_icon_dark__search,273,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 273; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 274; @position = 18; @symbol_constdef = [filename,274,18,26]; @symbol_type<0> = [String,274,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__search.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 275; @position = 18; @symbol_constdef = [compress,275,18,26]; @symbol_type<0> = [String,275,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 276; @position = 18; @symbol_constdef = [dithering,276,18,27]; @symbol_type<0> = [String,276,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 277; @position = 18; @symbol_constdef = [automaticPalette,277,18,34]; @symbol_type<0> = [String,277,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 280; @symbol_moduledef = [activity_color_light__text,280,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 280; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 282 18 ]
+                symbol [ Graphics %tmp.49 282 31 39 ];
+                %tmp.49 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.50 282 40 57 ];
+                %tmp.50 = getv %tmp.49 :COLOR_TRANSPARENT;
+                putv self :background %tmp.50;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 281; @position = 18; @symbol_constdef = [color,281,18,23]; @symbol_type<0> = [Number,281,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 282; @position = 18; @symbol_constdef = [background,282,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 285; @symbol_moduledef = [confirmation_icon__hint_keep,285,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 285; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 286; @position = 18; @symbol_constdef = [filename,286,18,26]; @symbol_type<0> = [String,286,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 287; @position = 18; @symbol_constdef = [dithering,287,18,27]; @symbol_type<0> = [String,287,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 290; @symbol_moduledef = [system_icon_dark__save,290,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 290; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 291; @position = 18; @symbol_constdef = [filename,291,18,26]; @symbol_type<0> = [String,291,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__save.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 292; @position = 18; @symbol_constdef = [compress,292,18,26]; @symbol_type<0> = [String,292,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 293; @position = 18; @symbol_constdef = [dithering,293,18,27]; @symbol_type<0> = [String,293,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 294; @position = 18; @symbol_constdef = [automaticPalette,294,18,34]; @symbol_type<0> = [String,294,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 297; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,297,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 297; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 298; @position = 18; @symbol_constdef = [filename,298,18,26]; @symbol_type<0> = [String,298,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_destructive__hint_button_left_middle.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 299; @position = 18; @symbol_constdef = [dithering,299,18,27]; @symbol_type<0> = [String,299,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 302; @symbol_moduledef = [system_icon_light__search,302,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 302; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 303; @position = 18; @symbol_constdef = [filename,303,18,26]; @symbol_type<0> = [String,303,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__search.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 304; @position = 18; @symbol_constdef = [dithering,304,18,27]; @symbol_type<0> = [String,304,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 307; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,307,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 307; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 308; @position = 18; @symbol_constdef = [filename,308,18,26]; @symbol_type<0> = [String,308,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 309; @position = 18; @symbol_constdef = [dithering,309,18,27]; @symbol_type<0> = [String,309,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 312; @symbol_moduledef = [system_icon_positive__hint_button_left_top,312,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 312; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 313; @position = 18; @symbol_constdef = [filename,313,18,26]; @symbol_type<0> = [String,313,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_positive__hint_button_left_top.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 314; @position = 18; @symbol_constdef = [dithering,314,18,27]; @symbol_type<0> = [String,314,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 317; @symbol_moduledef = [system_loc__hint_button_right_bottom,317,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 317; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 318; @position = 18; @symbol_constdef = [x,318,18,19]; @symbol_type<0> = [Number,318,23,29]; ]
+            const x as Number = 222;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 319; @position = 18; @symbol_constdef = [y,319,18,19]; @symbol_type<0> = [Number,319,23,29]; ]
+            const y as Number = 178;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 322; @symbol_moduledef = [confirmation_icon_dark__hint_reject,322,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 322; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 323; @position = 18; @symbol_constdef = [filename,323,18,26]; @symbol_type<0> = [String,323,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 324; @position = 18; @symbol_constdef = [dithering,324,18,27]; @symbol_type<0> = [String,324,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 327; @symbol_moduledef = [confirmation_color_dark__body,327,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 327; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 329 18 ]
+                symbol [ Graphics %tmp.51 329 31 39 ];
+                %tmp.51 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.52 329 40 57 ];
+                %tmp.52 = getv %tmp.51 :COLOR_TRANSPARENT;
+                putv self :background %tmp.52;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 328; @position = 18; @symbol_constdef = [color,328,18,23]; @symbol_type<0> = [Number,328,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 329; @position = 18; @symbol_constdef = [background,329,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 332; @symbol_moduledef = [confirmation_icon_light__hint_confirm,332,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 332; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 333; @position = 18; @symbol_constdef = [filename,333,18,26]; @symbol_type<0> = [String,333,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 334; @position = 18; @symbol_constdef = [dithering,334,18,27]; @symbol_type<0> = [String,334,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 337; @symbol_moduledef = [prompt_color_dark__title,337,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 337; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 339 18 ]
+                symbol [ Graphics %tmp.53 339 31 39 ];
+                %tmp.53 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.54 339 40 57 ];
+                %tmp.54 = getv %tmp.53 :COLOR_TRANSPARENT;
+                putv self :background %tmp.54;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 338; @position = 18; @symbol_constdef = [color,338,18,23]; @symbol_type<0> = [Number,338,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 339; @position = 18; @symbol_constdef = [background,339,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 342; @symbol_moduledef = [system_icon_destructive__cancel,342,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 342; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 343; @position = 18; @symbol_constdef = [filename,343,18,26]; @symbol_type<0> = [String,343,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_destructive__cancel.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 344; @position = 18; @symbol_constdef = [dithering,344,18,27]; @symbol_type<0> = [String,344,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 347; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,347,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 347; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 348; @position = 18; @symbol_constdef = [filename,348,18,26]; @symbol_type<0> = [String,348,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 349; @position = 18; @symbol_constdef = [dithering,349,18,27]; @symbol_type<0> = [String,349,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 352; @symbol_moduledef = [prompt_loc__title,352,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 352; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 353; @position = 18; @symbol_constdef = [x,353,18,19]; @symbol_type<0> = [Number,353,23,29]; ]
+            const x as Number = 28;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 354; @position = 18; @symbol_constdef = [y,354,18,19]; @symbol_type<0> = [Number,354,23,29]; ]
+            const y as Number = 21;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 357; @symbol_moduledef = [confirmation_font_enhanced_readability__body,357,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 357; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 358 18 ]
+                symbol [ Graphics %tmp.55 358 34 42 ];
+                %tmp.55 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.56 358 43 62 ];
+                %tmp.56 = getv %tmp.55 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.57 358 63 71 ];
+                %tmp.57 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.58 358 72 92 ];
+                %tmp.58 = getv %tmp.57 :TEXT_JUSTIFY_VCENTER;
+                %tmp.59 = bitor %tmp.56 %tmp.58;
+                putv self :justification %tmp.59;
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 359 18 ]
+                symbol [ Graphics %tmp.60 359 25 33 ];
+                %tmp.60 = getm $.Toybox.Graphics;
+                symbol [ FONT_SMALL %tmp.61 359 34 44 ];
+                %tmp.61 = getv %tmp.60 :FONT_SMALL;
+                putv self :font %tmp.61;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 358; @position = 18; @symbol_constdef = [justification,358,18,31]; ]
+            const justification;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 359; @position = 18; @symbol_constdef = [font,359,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 362; @symbol_moduledef = [prompt_color_light__title,362,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 362; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 364 18 ]
+                symbol [ Graphics %tmp.62 364 31 39 ];
+                %tmp.62 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.63 364 40 57 ];
+                %tmp.63 = getv %tmp.62 :COLOR_TRANSPARENT;
+                putv self :background %tmp.63;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 363; @position = 18; @symbol_constdef = [color,363,18,23]; @symbol_type<0> = [Number,363,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 364; @position = 18; @symbol_constdef = [background,364,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 367; @symbol_moduledef = [system_icon_dark__hint_button_right_top,367,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 367; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 368; @position = 18; @symbol_constdef = [filename,368,18,26]; @symbol_type<0> = [String,368,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 369; @position = 18; @symbol_constdef = [dithering,369,18,27]; @symbol_type<0> = [String,369,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 372; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,372,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 372; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 373; @position = 18; @symbol_constdef = [filename,373,18,26]; @symbol_type<0> = [String,373,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 374; @position = 18; @symbol_constdef = [dithering,374,18,27]; @symbol_type<0> = [String,374,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 377; @symbol_moduledef = [confirmation_icon_dark__hint_keep,377,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 377; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 378; @position = 18; @symbol_constdef = [filename,378,18,26]; @symbol_type<0> = [String,378,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 379; @position = 18; @symbol_constdef = [dithering,379,18,27]; @symbol_type<0> = [String,379,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 382; @symbol_moduledef = [system_icon_light__cancel,382,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 382; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 383; @position = 18; @symbol_constdef = [filename,383,18,26]; @symbol_type<0> = [String,383,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__cancel.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 384; @position = 18; @symbol_constdef = [dithering,384,18,27]; @symbol_type<0> = [String,384,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 387; @symbol_moduledef = [confirmation_icon_light__hint_reject,387,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 387; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 388; @position = 18; @symbol_constdef = [filename,388,18,26]; @symbol_type<0> = [String,388,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 389; @position = 18; @symbol_constdef = [dithering,389,18,27]; @symbol_type<0> = [String,389,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 392; @symbol_moduledef = [system_icon_light__about,392,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 392; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 393; @position = 18; @symbol_constdef = [filename,393,18,26]; @symbol_type<0> = [String,393,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__about.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 394; @position = 18; @symbol_constdef = [dithering,394,18,27]; @symbol_type<0> = [String,394,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 397; @symbol_moduledef = [system_size__toast_icon,397,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 397; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 398; @position = 18; @symbol_constdef = [scaleX,398,18,24]; @symbol_type<0> = [Number,398,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 399; @position = 18; @symbol_constdef = [scaleY,399,18,24]; @symbol_type<0> = [Number,399,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 400; @position = 18; @symbol_constdef = [scaleRelativeTo,400,18,33]; @symbol_type<0> = [String,400,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 403; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,403,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 403; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 404; @position = 18; @symbol_constdef = [exclude,404,18,25]; @symbol_type<0> = [Boolean,404,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 407; @symbol_moduledef = [confirmation_icon__hint_reject,407,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 407; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 408; @position = 18; @symbol_constdef = [filename,408,18,26]; @symbol_type<0> = [String,408,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 409; @position = 18; @symbol_constdef = [dithering,409,18,27]; @symbol_type<0> = [String,409,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 412; @symbol_moduledef = [system_icon_light__hint_action_menu,412,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 412; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 413; @position = 18; @symbol_constdef = [filename,413,18,26]; @symbol_type<0> = [String,413,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 414; @position = 18; @symbol_constdef = [dithering,414,18,27]; @symbol_type<0> = [String,414,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 417; @symbol_moduledef = [system_icon_light__hint_button_right_middle,417,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 417; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 418; @position = 18; @symbol_constdef = [exclude,418,18,25]; @symbol_type<0> = [Boolean,418,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 421; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,421,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 421; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 422; @position = 18; @symbol_constdef = [exclude,422,18,25]; @symbol_type<0> = [Boolean,422,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 425; @symbol_moduledef = [confirmation_loc__hint_reject,425,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 425; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 426; @position = 18; @symbol_constdef = [x,426,18,19]; @symbol_type<0> = [Number,426,23,29]; ]
+            const x as Number = 7;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 427; @position = 18; @symbol_constdef = [y,427,18,19]; @symbol_type<0> = [Number,427,23,29]; ]
+            const y as Number = 179;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 428; @position = 18; @symbol_constdef = [horizontalJustification,428,18,41]; @symbol_type<0> = [String,428,45,51]; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 431; @symbol_moduledef = [confirmation_icon_dark__hint_delete,431,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 431; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 432; @position = 18; @symbol_constdef = [filename,432,18,26]; @symbol_type<0> = [String,432,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 433; @position = 18; @symbol_constdef = [dithering,433,18,27]; @symbol_type<0> = [String,433,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 436; @symbol_moduledef = [activity_color_dark__background,436,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 436; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 437; @position = 18; @symbol_constdef = [color,437,18,23]; @symbol_type<0> = [Number,437,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 438; @position = 18; @symbol_constdef = [background,438,18,28]; @symbol_type<0> = [Number,438,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 441; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,441,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 441; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 442; @position = 18; @symbol_constdef = [filename,442,18,26]; @symbol_type<0> = [String,442,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 443; @position = 18; @symbol_constdef = [dithering,443,18,27]; @symbol_type<0> = [String,443,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 446; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,446,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 446; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 447; @position = 18; @symbol_constdef = [filename,447,18,26]; @symbol_type<0> = [String,447,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_positive__hint_button_left_middle.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 448; @position = 18; @symbol_constdef = [dithering,448,18,27]; @symbol_type<0> = [String,448,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 451; @symbol_moduledef = [system_size__menu_icon,451,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 451; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 452; @position = 18; @symbol_constdef = [scaleX,452,18,24]; @symbol_type<0> = [Number,452,28,34]; ]
+            const scaleX as Number = 45;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 453; @position = 18; @symbol_constdef = [scaleY,453,18,24]; @symbol_type<0> = [Number,453,28,34]; ]
+            const scaleY as Number = 76;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 454; @position = 18; @symbol_constdef = [scaleRelativeTo,454,18,33]; @symbol_type<0> = [String,454,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 457; @symbol_moduledef = [system_icon_destructive__warning,457,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 457; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 458; @position = 18; @symbol_constdef = [filename,458,18,26]; @symbol_type<0> = [String,458,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_destructive__warning.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 459; @position = 18; @symbol_constdef = [dithering,459,18,27]; @symbol_type<0> = [String,459,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 462; @symbol_moduledef = [system_loc__hint_button_right_middle,462,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 462; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 463; @position = 18; @symbol_constdef = [exclude,463,18,25]; @symbol_type<0> = [Boolean,463,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 466; @symbol_moduledef = [system_icon_dark__cancel,466,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 466; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 467; @position = 18; @symbol_constdef = [filename,467,18,26]; @symbol_type<0> = [String,467,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__cancel.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 468; @position = 18; @symbol_constdef = [compress,468,18,26]; @symbol_type<0> = [String,468,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 469; @position = 18; @symbol_constdef = [dithering,469,18,27]; @symbol_type<0> = [String,469,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 470; @position = 18; @symbol_constdef = [automaticPalette,470,18,34]; @symbol_type<0> = [String,470,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 473; @symbol_moduledef = [prompt_size__body_with_title,473,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 473; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 474; @position = 18; @symbol_constdef = [width,474,18,23]; @symbol_type<0> = [Number,474,27,33]; ]
+            const width as Number = 224;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 475; @position = 18; @symbol_constdef = [height,475,18,24]; @symbol_type<0> = [Number,475,28,34]; ]
+            const height as Number = 168;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 478; @symbol_moduledef = [system_loc__hint_button_right_top,478,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 478; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 479; @position = 18; @symbol_constdef = [x,479,18,19]; @symbol_type<0> = [Number,479,23,29]; ]
+            const x as Number = 222;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 480; @position = 18; @symbol_constdef = [y,480,18,19]; @symbol_type<0> = [Number,480,23,29]; ]
+            const y as Number = 44;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 483; @symbol_moduledef = [system_color_light__text,483,15,39]; ]
+        module system_color_light__text {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 483; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 485 18 ]
+                symbol [ Graphics %tmp.64 485 31 39 ];
+                %tmp.64 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.65 485 40 57 ];
+                %tmp.65 = getv %tmp.64 :COLOR_TRANSPARENT;
+                putv self :background %tmp.65;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 484; @position = 18; @symbol_constdef = [color,484,18,23]; @symbol_type<0> = [Number,484,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 485; @position = 18; @symbol_constdef = [background,485,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 488; @symbol_moduledef = [system_icon_light__check,488,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 488; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 489; @position = 18; @symbol_constdef = [filename,489,18,26]; @symbol_type<0> = [String,489,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__check.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 490; @position = 18; @symbol_constdef = [dithering,490,18,27]; @symbol_type<0> = [String,490,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 493; @symbol_moduledef = [confirmation_input__reject,493,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 493; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 494 18 ]
+                symbol [ WatchUi %tmp.66 494 27 34 ];
+                %tmp.66 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.67 494 35 43 ];
+                %tmp.67 = getv %tmp.66 :KEY_DOWN;
+                putv self :button %tmp.67;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 494; @position = 18; @symbol_constdef = [button,494,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 497; @symbol_moduledef = [system_icon_light__revert,497,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 497; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 498; @position = 18; @symbol_constdef = [filename,498,18,26]; @symbol_type<0> = [String,498,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__revert.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 499; @position = 18; @symbol_constdef = [dithering,499,18,27]; @symbol_type<0> = [String,499,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 502; @symbol_moduledef = [system_size__subwindow,502,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 502; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 503; @position = 18; @symbol_constdef = [exclude,503,18,25]; @symbol_type<0> = [Boolean,503,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 506; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,506,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 506; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 507; @position = 18; @symbol_constdef = [filename,507,18,26]; @symbol_type<0> = [String,507,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_positive__hint_button_left_bottom.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 508; @position = 18; @symbol_constdef = [dithering,508,18,27]; @symbol_type<0> = [String,508,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 511; @symbol_moduledef = [system_icon_dark__check,511,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 511; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 512; @position = 18; @symbol_constdef = [filename,512,18,26]; @symbol_type<0> = [String,512,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__check.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 513; @position = 18; @symbol_constdef = [compress,513,18,26]; @symbol_type<0> = [String,513,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 514; @position = 18; @symbol_constdef = [dithering,514,18,27]; @symbol_type<0> = [String,514,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 515; @position = 18; @symbol_constdef = [automaticPalette,515,18,34]; @symbol_type<0> = [String,515,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 518; @symbol_moduledef = [confirmation_loc__hint_keep,518,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 518; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 519; @position = 18; @symbol_constdef = [x,519,18,19]; @symbol_type<0> = [Number,519,23,29]; ]
+            const x as Number = 7;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 520; @position = 18; @symbol_constdef = [y,520,18,19]; @symbol_type<0> = [Number,520,23,29]; ]
+            const y as Number = 179;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 521; @position = 18; @symbol_constdef = [horizontalJustification,521,18,41]; @symbol_type<0> = [String,521,45,51]; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 524; @symbol_moduledef = [confirmation_loc__hint_delete,524,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 524; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 525; @position = 18; @symbol_constdef = [x,525,18,19]; @symbol_type<0> = [Number,525,23,29]; ]
+            const x as Number = 222;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 526; @position = 18; @symbol_constdef = [y,526,18,19]; @symbol_type<0> = [Number,526,23,29]; ]
+            const y as Number = 44;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 529; @symbol_moduledef = [system_icon_positive__hint_action_menu,529,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 529; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 530; @position = 18; @symbol_constdef = [filename,530,18,26]; @symbol_type<0> = [String,530,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 531; @position = 18; @symbol_constdef = [dithering,531,18,27]; @symbol_type<0> = [String,531,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 534; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,534,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 534; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 535; @position = 18; @symbol_constdef = [exclude,535,18,25]; @symbol_type<0> = [Boolean,535,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 538; @symbol_moduledef = [system_icon_light__hint_button_left_middle,538,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 538; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 539; @position = 18; @symbol_constdef = [filename,539,18,26]; @symbol_type<0> = [String,539,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__hint_button_left_middle.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 540; @position = 18; @symbol_constdef = [dithering,540,18,27]; @symbol_type<0> = [String,540,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 543; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,543,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 543; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 544; @position = 18; @symbol_constdef = [filename,544,18,26]; @symbol_type<0> = [String,544,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 545; @position = 18; @symbol_constdef = [dithering,545,18,27]; @symbol_type<0> = [String,545,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 548; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,548,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 548; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 549; @position = 18; @symbol_constdef = [filename,549,18,26]; @symbol_type<0> = [String,549,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 550; @position = 18; @symbol_constdef = [dithering,550,18,27]; @symbol_type<0> = [String,550,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 553; @symbol_moduledef = [system_icon_dark__revert,553,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 553; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 554; @position = 18; @symbol_constdef = [filename,554,18,26]; @symbol_type<0> = [String,554,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__revert.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 555; @position = 18; @symbol_constdef = [compress,555,18,26]; @symbol_type<0> = [String,555,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 556; @position = 18; @symbol_constdef = [dithering,556,18,27]; @symbol_type<0> = [String,556,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 557; @position = 18; @symbol_constdef = [automaticPalette,557,18,34]; @symbol_type<0> = [String,557,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 560; @symbol_moduledef = [confirmation_icon_light__hint_delete,560,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 560; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 561; @position = 18; @symbol_constdef = [filename,561,18,26]; @symbol_type<0> = [String,561,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 562; @position = 18; @symbol_constdef = [dithering,562,18,27]; @symbol_type<0> = [String,562,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 565; @symbol_moduledef = [system_icon_dark__question,565,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 565; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 566; @position = 18; @symbol_constdef = [filename,566,18,26]; @symbol_type<0> = [String,566,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__question.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 567; @position = 18; @symbol_constdef = [compress,567,18,26]; @symbol_type<0> = [String,567,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 568; @position = 18; @symbol_constdef = [dithering,568,18,27]; @symbol_type<0> = [String,568,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 569; @position = 18; @symbol_constdef = [automaticPalette,569,18,34]; @symbol_type<0> = [String,569,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 572; @symbol_moduledef = [system_icon_light__discard,572,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 572; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 573; @position = 18; @symbol_constdef = [filename,573,18,26]; @symbol_type<0> = [String,573,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__discard.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 574; @position = 18; @symbol_constdef = [dithering,574,18,27]; @symbol_type<0> = [String,574,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 577; @symbol_moduledef = [device_info,577,15,26]; ]
+        module device_info {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 577; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 579 18 ]
+                symbol [ Toybox %tmp.69 579 32 38 ];
+                %tmp.69 = getv ? :Toybox;
+                symbol [ System %tmp.70 579 39 45 ];
+                %tmp.70 = getv %tmp.69 :System;
+                symbol [ SCREEN_SHAPE_ROUND %tmp.71 579 46 64 ];
+                %tmp.71 = getv %tmp.70 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.71;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 578; @position = 18; @symbol_constdef = [screenWidth,578,18,29]; @symbol_type<0> = [Number,578,33,39]; ]
+            const screenWidth as Number = 280;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 579; @position = 18; @symbol_constdef = [screenShape,579,18,29]; ]
+            const screenShape;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 580; @position = 18; @symbol_constdef = [hasNightMode,580,18,30]; @symbol_type<0> = [Boolean,580,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 581; @position = 18; @symbol_constdef = [hasGpu,581,18,24]; @symbol_type<0> = [Boolean,581,28,35]; ]
+            const hasGpu as Boolean = true;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 582; @position = 18; @symbol_constdef = [screenHeight,582,18,30]; @symbol_type<0> = [Number,582,34,40]; ]
+            const screenHeight as Number = 280;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 583; @position = 18; @symbol_constdef = [hasTouchScreen,583,18,32]; @symbol_type<0> = [Boolean,583,36,43]; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 584; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,584,18,44]; @symbol_type<0> = [Boolean,584,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 587; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,587,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 587; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 588; @position = 18; @symbol_constdef = [filename,588,18,26]; @symbol_type<0> = [String,588,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 589; @position = 18; @symbol_constdef = [dithering,589,18,27]; @symbol_type<0> = [String,589,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 592; @symbol_moduledef = [prompt_font__body_no_title,592,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 592; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 593 18 ]
+                symbol [ Graphics %tmp.72 593 34 42 ];
+                %tmp.72 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.73 593 43 62 ];
+                %tmp.73 = getv %tmp.72 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.74 593 63 71 ];
+                %tmp.74 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.75 593 72 92 ];
+                %tmp.75 = getv %tmp.74 :TEXT_JUSTIFY_VCENTER;
+                %tmp.76 = bitor %tmp.73 %tmp.75;
+                putv self :justification %tmp.76;
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 594 18 ]
+                symbol [ Graphics %tmp.77 594 25 33 ];
+                %tmp.77 = getm $.Toybox.Graphics;
+                symbol [ FONT_GLANCE %tmp.78 594 34 45 ];
+                %tmp.78 = getv %tmp.77 :FONT_GLANCE;
+                putv self :font %tmp.78;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 593; @position = 18; @symbol_constdef = [justification,593,18,31]; ]
+            const justification;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 594; @position = 18; @symbol_constdef = [font,594,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 597; @symbol_moduledef = [prompt_size__title_icon,597,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 597; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 598; @position = 18; @symbol_constdef = [scaleX,598,18,24]; @symbol_type<0> = [Float,598,28,33]; ]
+            const scaleX as Float = 0.15;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 599; @position = 18; @symbol_constdef = [scaleRelativeTo,599,18,33]; @symbol_type<0> = [String,599,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 602; @symbol_moduledef = [system_icon_dark__warning,602,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 602; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 603; @position = 18; @symbol_constdef = [filename,603,18,26]; @symbol_type<0> = [String,603,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_dark__warning.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 604; @position = 18; @symbol_constdef = [compress,604,18,26]; @symbol_type<0> = [String,604,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 605; @position = 18; @symbol_constdef = [dithering,605,18,27]; @symbol_type<0> = [String,605,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 606; @position = 18; @symbol_constdef = [automaticPalette,606,18,34]; @symbol_type<0> = [String,606,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 609; @symbol_moduledef = [prompt_loc__title_icon,609,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 609; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 610; @position = 18; @symbol_constdef = [x,610,18,19]; @symbol_type<0> = [Number,610,23,29]; ]
+            const x as Number = 140;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 611; @position = 18; @symbol_constdef = [y,611,18,19]; @symbol_type<0> = [Number,611,23,29]; ]
+            const y as Number = 42;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 612; @position = 18; @symbol_constdef = [horizontalJustification,612,18,41]; @symbol_type<0> = [String,612,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 613; @position = 18; @symbol_constdef = [verticalJustification,613,18,39]; @symbol_type<0> = [String,613,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 616; @symbol_moduledef = [prompt_font_enhanced_readability__title,616,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 616; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 617 18 ]
+                symbol [ Graphics %tmp.79 617 34 42 ];
+                %tmp.79 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.80 617 43 62 ];
+                %tmp.80 = getv %tmp.79 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.81 617 63 71 ];
+                %tmp.81 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.82 617 72 92 ];
+                %tmp.82 = getv %tmp.81 :TEXT_JUSTIFY_VCENTER;
+                %tmp.83 = bitor %tmp.80 %tmp.82;
+                putv self :justification %tmp.83;
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 618 18 ]
+                symbol [ Graphics %tmp.84 618 25 33 ];
+                %tmp.84 = getm $.Toybox.Graphics;
+                symbol [ FONT_SMALL %tmp.85 618 34 44 ];
+                %tmp.85 = getv %tmp.84 :FONT_SMALL;
+                putv self :font %tmp.85;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 617; @position = 18; @symbol_constdef = [justification,617,18,31]; ]
+            const justification;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 618; @position = 18; @symbol_constdef = [font,618,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 621; @symbol_moduledef = [prompt_color_dark__body,621,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 621; ]
+            <init> {
+[ "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen" 623 18 ]
+                symbol [ Graphics %tmp.86 623 31 39 ];
+                %tmp.86 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.87 623 40 57 ];
+                %tmp.87 = getv %tmp.86 :COLOR_TRANSPARENT;
+                putv self :background %tmp.87;
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 622; @position = 18; @symbol_constdef = [color,622,18,23]; @symbol_type<0> = [Number,622,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 623; @position = 18; @symbol_constdef = [background,623,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 626; @symbol_moduledef = [confirmation_icon__hint_delete,626,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 626; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 627; @position = 18; @symbol_constdef = [filename,627,18,26]; @symbol_type<0> = [String,627,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 628; @position = 18; @symbol_constdef = [dithering,628,18,27]; @symbol_type<0> = [String,628,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 631; @symbol_moduledef = [system_icon_light__hint_button_right_top,631,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 631; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 632; @position = 18; @symbol_constdef = [filename,632,18,26]; @symbol_type<0> = [String,632,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 633; @position = 18; @symbol_constdef = [dithering,633,18,27]; @symbol_type<0> = [String,633,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 636; @symbol_moduledef = [confirmation_size__body,636,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 636; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 637; @position = 18; @symbol_constdef = [width,637,18,23]; @symbol_type<0> = [Number,637,27,33]; ]
+            const width as Number = 168;
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 638; @position = 18; @symbol_constdef = [height,638,18,24]; @symbol_type<0> = [Number,638,28,34]; ]
+            const height as Number = 168;
+        }
+        [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 641; @symbol_moduledef = [system_icon_positive__check,641,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 641; ]
+            <init> {
+            }
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 642; @position = 18; @symbol_constdef = [filename,642,18,26]; @symbol_type<0> = [String,642,30,36]; ]
+            const filename as String = "/Users/mac/Library/Application Support/Garmin/ConnectIQ/Devices/enduro3/system_icon_positive__check.svg";
+            [ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 643; @position = 18; @symbol_constdef = [dithering,643,18,27]; @symbol_type<0> = [String,643,31,37]; ]
+            const dithering as String = "none";
+        }
+    }
+}
+[ @file = "/Users/mac/Desktop/garmin/TacticalFace/bin/gen/006-B4575-00/source/Rez.mcgen"; @line = 1; ]
+<init> {
+}
