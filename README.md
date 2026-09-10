@@ -1,6 +1,6 @@
-# TACTICAL MONO
+# garmin_satisfy
 
-Garmin Connect IQ 表盘。单色战术排版：卡其纸底 / 反色，大号时间，四行可配置数据，日出日落与气温。
+Garmin Connect IQ 表盘，手表上显示为 **TACTICAL MONO**。单色战术排版：卡其纸底 / 反色，大号时间，四行可配置数据，日出日落与气温。
 
 灵感来自 SATISFY × COROS APEX 4 Environment Overview，**非官方、无关联**。
 

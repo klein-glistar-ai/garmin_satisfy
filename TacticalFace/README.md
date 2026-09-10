@@ -1,6 +1,6 @@
-# TACTICAL MONO
+# garmin_satisfy
 
-Garmin Connect IQ watch face. See the [repository README](../README.md) for devices, build, and sideload.
+Garmin Connect IQ watch face **TACTICAL MONO**. See the [repository README](../README.md) for devices, build, and sideload.
 
 ```bash
 ./build.sh          # Forerunner 970
