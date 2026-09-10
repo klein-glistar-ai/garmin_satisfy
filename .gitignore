@@ -1,0 +1,20 @@
+.DS_Store
+**/.DS_Store
+
+# 编译产物
+*.prg
+*.prg.debug.xml
+*-settings.json
+TacticalFace/bin/
+bin/
+
+# 开发者密钥，切勿提交
+keys/*.der
+keys/*.pem
+keys/*.key
+TacticalFace/keys/*.der
+TacticalFace/keys/*.pem
+
+# 未使用的全屏纸纹（955 用 1×1 占位，避免点阵屏 OOM）
+TacticalFace/resources-fr955/drawables/paper_fr955.png
+TacticalFace/resources-fr955/drawables/paper_fr955_inv.png

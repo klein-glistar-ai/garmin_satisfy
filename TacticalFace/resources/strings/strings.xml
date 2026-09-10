@@ -1,3 +1,20 @@
 <strings>
     <string id="AppName">TACTICAL MONO</string>
+    <string id="InvertTitle">Invert colors</string>
+    <string id="InvertHint">Off = paper, On = dark</string>
+    <string id="Row1Title">Row 1</string>
+    <string id="Row2Title">Row 2</string>
+    <string id="Row3Title">Row 3</string>
+    <string id="Row4Title">Row 4</string>
+    <string id="MetricWeeklyRun">Weekly run</string>
+    <string id="MetricElevGain">Elevation gain</string>
+    <string id="MetricBodyBatt">Body Battery</string>
+    <string id="MetricStress">Stress</string>
+    <string id="MetricSteps">Steps</string>
+    <string id="MetricCalories">Calories</string>
+    <string id="MetricHeartRate">Heart rate</string>
+    <string id="MetricFloors">Floors</string>
+    <string id="MetricDistance">Distance</string>
+    <string id="MetricRecovery">Recovery time</string>
+    <string id="MetricReadiness">Training readiness</string>
 </strings>

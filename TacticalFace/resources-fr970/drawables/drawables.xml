@@ -1,0 +1,7 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon_fr970.png" dithering="none" packingFormat="png"/>
+    <bitmap id="BandBmp" filename="band_fr970.png" dithering="none" packingFormat="png"/>
+    <bitmap id="BandBmpInv" filename="band_fr970_inv.png" dithering="none" packingFormat="png"/>
+    <bitmap id="PaperBg" filename="paper_fr970.png" dithering="none" packingFormat="jpg"/>
+    <bitmap id="PaperBgInv" filename="paper_fr970_inv.png" dithering="none" packingFormat="jpg"/>
+</drawables>

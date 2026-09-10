@@ -1,0 +1,5 @@
+<fonts>
+    <font id="MonoTime" filename="mono_time_fr955.fnt" antialias="false"/>
+    <font id="MonoMd" filename="mono_md_fr955.fnt" antialias="false"/>
+    <font id="MonoSm" filename="mono_sm_fr955.fnt" antialias="false"/>
+</fonts>

@@ -1,0 +1,20 @@
+<strings>
+    <string id="AppName">TACTICAL MONO</string>
+    <string id="InvertTitle">反色</string>
+    <string id="InvertHint">关闭为浅色纸底</string>
+    <string id="Row1Title">第 1 行</string>
+    <string id="Row2Title">第 2 行</string>
+    <string id="Row3Title">第 3 行</string>
+    <string id="Row4Title">第 4 行</string>
+    <string id="MetricWeeklyRun">周跑量</string>
+    <string id="MetricElevGain">爬升</string>
+    <string id="MetricBodyBatt">身体电量</string>
+    <string id="MetricStress">压力</string>
+    <string id="MetricSteps">步数</string>
+    <string id="MetricCalories">卡路里</string>
+    <string id="MetricHeartRate">心率</string>
+    <string id="MetricFloors">楼层</string>
+    <string id="MetricDistance">距离</string>
+    <string id="MetricRecovery">恢复时间</string>
+    <string id="MetricReadiness">训练准备度</string>
+</strings>

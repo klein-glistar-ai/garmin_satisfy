@@ -1,0 +1,65 @@
+<settings>
+    <setting propertyKey="@Properties.invert" title="@Strings.InvertTitle">
+        <settingConfig type="boolean"/>
+    </setting>
+    <setting propertyKey="@Properties.row1" title="@Strings.Row1Title">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.MetricWeeklyRun</listEntry>
+            <listEntry value="1">@Strings.MetricElevGain</listEntry>
+            <listEntry value="2">@Strings.MetricBodyBatt</listEntry>
+            <listEntry value="3">@Strings.MetricStress</listEntry>
+            <listEntry value="4">@Strings.MetricSteps</listEntry>
+            <listEntry value="5">@Strings.MetricCalories</listEntry>
+            <listEntry value="6">@Strings.MetricHeartRate</listEntry>
+            <listEntry value="7">@Strings.MetricFloors</listEntry>
+            <listEntry value="8">@Strings.MetricDistance</listEntry>
+            <listEntry value="9">@Strings.MetricRecovery</listEntry>
+            <listEntry value="10">@Strings.MetricReadiness</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.row2" title="@Strings.Row2Title">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.MetricWeeklyRun</listEntry>
+            <listEntry value="1">@Strings.MetricElevGain</listEntry>
+            <listEntry value="2">@Strings.MetricBodyBatt</listEntry>
+            <listEntry value="3">@Strings.MetricStress</listEntry>
+            <listEntry value="4">@Strings.MetricSteps</listEntry>
+            <listEntry value="5">@Strings.MetricCalories</listEntry>
+            <listEntry value="6">@Strings.MetricHeartRate</listEntry>
+            <listEntry value="7">@Strings.MetricFloors</listEntry>
+            <listEntry value="8">@Strings.MetricDistance</listEntry>
+            <listEntry value="9">@Strings.MetricRecovery</listEntry>
+            <listEntry value="10">@Strings.MetricReadiness</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.row3" title="@Strings.Row3Title">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.MetricWeeklyRun</listEntry>
+            <listEntry value="1">@Strings.MetricElevGain</listEntry>
+            <listEntry value="2">@Strings.MetricBodyBatt</listEntry>
+            <listEntry value="3">@Strings.MetricStress</listEntry>
+            <listEntry value="4">@Strings.MetricSteps</listEntry>
+            <listEntry value="5">@Strings.MetricCalories</listEntry>
+            <listEntry value="6">@Strings.MetricHeartRate</listEntry>
+            <listEntry value="7">@Strings.MetricFloors</listEntry>
+            <listEntry value="8">@Strings.MetricDistance</listEntry>
+            <listEntry value="9">@Strings.MetricRecovery</listEntry>
+            <listEntry value="10">@Strings.MetricReadiness</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.row4" title="@Strings.Row4Title">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.MetricWeeklyRun</listEntry>
+            <listEntry value="1">@Strings.MetricElevGain</listEntry>
+            <listEntry value="2">@Strings.MetricBodyBatt</listEntry>
+            <listEntry value="3">@Strings.MetricStress</listEntry>
+            <listEntry value="4">@Strings.MetricSteps</listEntry>
+            <listEntry value="5">@Strings.MetricCalories</listEntry>
+            <listEntry value="6">@Strings.MetricHeartRate</listEntry>
+            <listEntry value="7">@Strings.MetricFloors</listEntry>
+            <listEntry value="8">@Strings.MetricDistance</listEntry>
+            <listEntry value="9">@Strings.MetricRecovery</listEntry>
+            <listEntry value="10">@Strings.MetricReadiness</listEntry>
+        </settingConfig>
+    </setting>
+</settings>

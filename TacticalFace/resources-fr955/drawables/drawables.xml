@@ -1,0 +1,8 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon_fr955.png"/>
+    <bitmap id="BandBmp" filename="band_fr955.png" packingFormat="png"/>
+    <bitmap id="BandBmpInv" filename="band_fr955_inv.png" packingFormat="png"/>
+    <!-- MIP 表盘不加载全屏纸纹；占位避免误用默认 280 纸纹把内存打爆 -->
+    <bitmap id="PaperBg" filename="paper_1x1.png" packingFormat="png"/>
+    <bitmap id="PaperBgInv" filename="paper_1x1.png" packingFormat="png"/>
+</drawables>

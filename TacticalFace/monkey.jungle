@@ -1,1 +1,3 @@
 project.manifest = manifest.xml
+# 965 与 970 同为 454×454 AMOLED，共用 970 资源
+fr965.resourcePath = resources;resources-fr970

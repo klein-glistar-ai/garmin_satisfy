@@ -1,4 +1,7 @@
 <drawables>
     <bitmap id="LauncherIcon" filename="launcher_icon.png"/>
     <bitmap id="BandBmp" filename="band_enduro3.png"/>
+    <bitmap id="BandBmpInv" filename="band_enduro3_inv.png"/>
+    <bitmap id="PaperBg" filename="paper_enduro3.png"/>
+    <bitmap id="PaperBgInv" filename="paper_enduro3_inv.png"/>
 </drawables>
