@@ -69,6 +69,8 @@ class TacticalFaceView extends WatchUi.WatchFace {
     private var _recId as Complications.Id? = null;
     private var _readyId as Complications.Id? = null;
     private var _tempId as Complications.Id? = null;
+    private var _intId as Complications.Id? = null;
+    private var _statusId as Complications.Id? = null;
     private var _bb as Number? = null;
     private var _stress as Number? = null;
     private var _run as Float? = null;
@@ -78,7 +80,12 @@ class TacticalFaceView extends WatchUi.WatchFace {
     private var _rec as Number? = null;
     private var _ready as Number? = null;
     private var _temp as Number? = null;
+    private var _intMin as Number? = null;
+    private var _status as String? = null;
     private var _scanAt as Number = 0;
+    private var _page as Number = 0;
+    private var _statusTries as Number = 0;
+    private var _statusSub as Boolean = false;
 
     private var _sunrise as Time.Moment? = null;
     private var _sunset as Time.Moment? = null;
@@ -91,7 +98,13 @@ class TacticalFaceView extends WatchUi.WatchFace {
 
     private const DOW = ["SUN","MON","TUE","WED","THU","FRI","SAT"];
 
-    function initialize() { WatchFace.initialize(); }
+    function initialize() {
+        WatchFace.initialize();
+        try {
+            var v = Application.Storage.getValue("metricPage");
+            if ((v instanceof Number) && ((v as Number) == 1)) { _page = 1; }
+        } catch (e) {}
+    }
 
     function onLayout(dc as Dc) as Void {
         _w = dc.getWidth(); _h = dc.getHeight();
@@ -206,6 +219,19 @@ class TacticalFaceView extends WatchUi.WatchFace {
         return (x > (_w / 2)) && (y >= y0) && (y <= y1);
     }
 
+    // 四行数据区域：点按切换两页指标（表盘收不到真正的双击）
+    function hitMetricRows(x as Number, y as Number) as Boolean {
+        var y0 = p(_rowY0) - 6;
+        var y1 = p(_bandY) - 2;
+        return (y >= y0) && (y <= y1);
+    }
+
+    function toggleMetricPage() as Void {
+        _page = (_page == 0) ? 1 : 0;
+        try { Application.Storage.setValue("metricPage", _page); } catch (e) {}
+        WatchUi.requestUpdate();
+    }
+
     function toggleInvert() as Void {
         applyTheme();
         Application.Properties.setValue("invert", !_invert);
@@ -232,6 +258,8 @@ class TacticalFaceView extends WatchUi.WatchFace {
                 else if (t == Complications.COMPLICATION_TYPE_WEEKLY_RUN_DISTANCE) { _runId = c.complicationId; }
                 else if (t == Complications.COMPLICATION_TYPE_SUNRISE)          { _riseId = c.complicationId; }
                 else if (t == Complications.COMPLICATION_TYPE_SUNSET)           { _setId = c.complicationId; }
+                else if (t == Complications.COMPLICATION_TYPE_INTENSITY_MINUTES) { _intId = c.complicationId; }
+                else if (t == Complications.COMPLICATION_TYPE_TRAINING_STATUS) { _statusId = c.complicationId; }
                 else if ((Complications has :COMPLICATION_TYPE_HEART_RATE) && t == Complications.COMPLICATION_TYPE_HEART_RATE) { _hrId = c.complicationId; }
                 else if ((Complications has :COMPLICATION_TYPE_RECOVERY_TIME) && t == Complications.COMPLICATION_TYPE_RECOVERY_TIME) { _recId = c.complicationId; }
                 else if ((Complications has :COMPLICATION_TYPE_TRAINING_READINESS) && t == Complications.COMPLICATION_TYPE_TRAINING_READINESS) { _readyId = c.complicationId; }
@@ -239,6 +267,49 @@ class TacticalFaceView extends WatchUi.WatchFace {
                 c = it.next();
             }
         } catch (e) {}
+        if (_statusId == null) {
+            try { _statusId = new Complications.Id(Complications.COMPLICATION_TYPE_TRAINING_STATUS); } catch (e) {}
+        }
+        subscribeStatus();
+    }
+
+    private function subscribeStatus() as Void {
+        if (_statusSub || _statusId == null) { return; }
+        try {
+            Complications.registerComplicationChangeCallback(method(:onComplicationChanged));
+            Complications.subscribeToUpdates(_statusId);
+            _statusSub = true;
+        } catch (e) {}
+    }
+
+    function onComplicationChanged(id as Complications.Id) as Void {
+        readStatus();
+        WatchUi.requestUpdate();
+    }
+
+    private function readStatus() as Void {
+        if (_statusId == null) { return; }
+        try {
+            var c = Complications.getComplication(_statusId);
+            if (c != null && c.value instanceof String) {
+                var s = c.value as String;
+                if (s.length() > 0) { _status = statusAbbrev(s); }
+            }
+        } catch (e) {}
+    }
+
+    // 点阵字体只有 A–Z，中文训练状态要映射成英文缩写
+    private function statusAbbrev(s as String) as String {
+        var u = s.toUpper();
+        if (u.find("UNPRODUCTIVE") != null || s.find("无效") != null) { return "UNP"; }
+        if (u.find("PRODUCTIVE") != null || s.find("高效") != null || s.find("有成效") != null) { return "PROD"; }
+        if (u.find("MAINTAIN") != null || s.find("保持") != null || s.find("维持") != null) { return "MNT"; }
+        if (u.find("PEAK") != null || s.find("巅峰") != null || s.find("高峰") != null) { return "PEAK"; }
+        if (u.find("DETRAIN") != null || s.find("下降") != null || s.find("退步") != null) { return "DET"; }
+        if (u.find("OVERREACH") != null || u.find("STRAIN") != null || s.find("过度") != null || s.find("力竭") != null) { return "STR"; }
+        if (u.find("RECOVERY") != null || s.find("恢复") != null) { return "REC"; }
+        if (u.find("NO RESULT") != null || u.find("NO STATUS") != null || s.find("无状态") != null || s.find("无结果") != null) { return "--"; }
+        return "--";
     }
 
     private function readNum(id as Complications.Id?) as Number? {
@@ -263,6 +334,10 @@ class TacticalFaceView extends WatchUi.WatchFace {
             scanComplications();
             _didScan = true;
             _scanAt = now;
+        } else if ((_statusId == null || _status == null) && _statusTries < 8 && (now - _scanAt >= 45)) {
+            scanComplications();
+            _statusTries = _statusTries + 1;
+            _scanAt = now;
         } else if ((now - _scanAt > 1800) &&
             (_bbId == null || _riseId == null || _setId == null || _tempId == null)) {
             scanComplications();
@@ -277,6 +352,8 @@ class TacticalFaceView extends WatchUi.WatchFace {
         v = readNum(_hrId);          if (v != null) { _hr = v; }
         v = readNum(_recId);         if (v != null) { _rec = v; }
         v = readNum(_readyId);       if (v != null) { _ready = v; }
+        v = readNum(_intId);         if (v != null) { _intMin = v; }
+        readStatus();
         if (_runId != null) {
             try {
                 var c = Complications.getComplication(_runId);
@@ -336,16 +413,13 @@ class TacticalFaceView extends WatchUi.WatchFace {
         if (t != null) { _temp = t as Number; }
     }
 
-    private function tempStr(ds as System.DeviceSettings) as String {
-        if (_temp == null) {
-            if (ds.temperatureUnits == System.UNIT_STATUTE) { return "--F"; }
-            return "--C";
-        }
+    private function tempNumStr(ds as System.DeviceSettings) as String {
+        if (_temp == null) { return "--"; }
         var c = _temp as Number;
         if (ds.temperatureUnits == System.UNIT_STATUTE) {
-            return ((c * 9) / 5 + 32).format("%d") + "F";
+            return ((c * 9) / 5 + 32).format("%d");
         }
-        return c.format("%d") + "C";
+        return c.format("%d");
     }
 
     // ---------------- 绘制辅助 ----------------
@@ -396,19 +470,49 @@ class TacticalFaceView extends WatchUi.WatchFace {
         dc.drawText(x, y, f, s, Graphics.TEXT_JUSTIFY_LEFT);
     }
 
+    private function drawDegree(dc as Dc, cx as Number, cy as Number, r as Number) as Void {
+        if (!_hi || _simple) {
+            dc.setColor(_fg, Graphics.COLOR_TRANSPARENT);
+            dc.setPenWidth(1);
+            dc.drawCircle(cx, cy, r);
+            return;
+        }
+        dc.setPenWidth(2);
+        dc.setColor(_bg, Graphics.COLOR_TRANSPARENT);
+        dc.drawCircle(cx, cy, r + 1);
+        dc.setColor(_fg, Graphics.COLOR_TRANSPARENT);
+        dc.drawCircle(cx, cy, r);
+    }
+
+    private function drawTemperature(dc as Dc, ds as System.DeviceSettings) as Void {
+        var num = tempNumStr(ds);
+        var unit = (ds.temperatureUnits == System.UNIT_STATUTE) ? "F" : "C";
+        var numW = dc.getTextWidthInPixels(num, _fMd);
+        var unitW = dc.getTextWidthInPixels(unit, _fMd);
+        var degR = _hi ? 3 : 2;
+        var degGap = _hi ? 4 : 2;
+        var unitGap = _hi ? 2 : 1;
+        var total = numW + degGap + degR * 2 + unitGap + unitW;
+        var x = _cx - total / 2;
+        var y = p(_tempY);
+        textHalo(dc, x, y, _fMd, num);
+        var cx = x + numW + degGap + degR;
+        var cy = y + dc.getFontHeight(_fMd) / 4;
+        drawDegree(dc, cx, cy, degR);
+        textHalo(dc, x + numW + degGap + degR * 2 + unitGap, y, _fMd, unit);
+    }
+
     private function rowMetric(i as Number) as Number {
-        var key = "row1";
-        if (i == 1) { key = "row2"; }
-        else if (i == 2) { key = "row3"; }
-        else if (i == 3) { key = "row4"; }
-        try {
-            var v = Application.Properties.getValue(key);
-            if (v instanceof Number) { return v as Number; }
-        } catch (e) {}
-        if (i == 1) { return 4; }
-        if (i == 2) { return 5; }
-        if (i == 3) { return 6; }
-        return 0;
+        if (_page == 1) {
+            if (i == 0) { return 0; }
+            if (i == 1) { return 11; }
+            if (i == 2) { return 12; }
+            return 9;
+        }
+        if (i == 0) { return 4; }
+        if (i == 1) { return 5; }
+        if (i == 2) { return 2; }
+        return 6;
     }
 
     private function metricLabel(id as Number) as String {
@@ -422,6 +526,8 @@ class TacticalFaceView extends WatchUi.WatchFace {
         if (id == 8) { return "DISTANCE"; }
         if (id == 9) { return "RECOVERY"; }
         if (id == 10) { return "READINESS"; }
+        if (id == 11) { return "INTENSITY"; }
+        if (id == 12) { return "TRAINING"; }
         return "WEEKLY RUN";
     }
 
@@ -457,11 +563,20 @@ class TacticalFaceView extends WatchUi.WatchFace {
         }
         if (id == 9) {
             if (_rec == null) { return "--"; }
-            var sec = _rec as Number;
-            if (sec >= 3600) { return (sec / 3600).format("%d") + "H"; }
-            return (sec / 60).format("%d") + "M";
+            var min = _rec as Number;
+            if (min >= 60) { return (min / 60).format("%d") + "H"; }
+            return min.format("%d") + "M";
         }
         if (id == 10) { return (_ready == null) ? "--" : (_ready as Number).format("%d"); }
+        if (id == 11) {
+            if (_intMin != null) { return (_intMin as Number).format("%d"); }
+            if (am != null && am.activeMinutesWeek != null) {
+                var w = am.activeMinutesWeek as ActivityMonitor.ActiveMinutes;
+                return (w.moderate + w.vigorous * 2).format("%d");
+            }
+            return "--";
+        }
+        if (id == 12) { return (_status == null) ? "--" : (_status as String); }
         if (_run != null) { return ((_run as Float) / 1000.0).format("%.0f") + "KM"; }
         return "--";
     }
@@ -486,8 +601,8 @@ class TacticalFaceView extends WatchUi.WatchFace {
         }
     }
 
-    // 空心线稿闪电，宽约 10、高约 16（280 基准）
-    private function drawBolt(dc as Dc, x as Number, y as Number) as Void {
+    // 空心线稿闪电；充电时填实。宽约 10、高约 16（280 基准）
+    private function drawBolt(dc as Dc, x as Number, y as Number, solid as Boolean) as Void {
         dc.setColor(_fg, Graphics.COLOR_TRANSPARENT);
         dc.setPenWidth(_hi ? 2 : p(2));
         var x1 = x + p(6);
@@ -498,6 +613,16 @@ class TacticalFaceView extends WatchUi.WatchFace {
         var x5 = x + p(9);
         var y5 = y + p(6);
         var x6 = x + p(5);
+        if (solid && (dc has :fillPolygon)) {
+            dc.fillPolygon([
+                [x1, y] as [Numeric, Numeric],
+                [x, y2] as [Numeric, Numeric],
+                [x3, y2] as [Numeric, Numeric],
+                [x4, y4] as [Numeric, Numeric],
+                [x5, y5] as [Numeric, Numeric],
+                [x6, y5] as [Numeric, Numeric]
+            ] as Array<[Numeric, Numeric]>);
+        }
         dc.drawLine(x1, y, x, y2);
         dc.drawLine(x, y2, x3, y2);
         dc.drawLine(x3, y2, x4, y4);
@@ -603,12 +728,13 @@ class TacticalFaceView extends WatchUi.WatchFace {
         if (!_simple) { drawTopArc(dc); }
 
         // ---- ⚡ + 电池电量（整组相对 5 道杠水平居中）----
-        var battStr = System.getSystemStats().battery.format("%d");
+        var stats = System.getSystemStats();
+        var battStr = stats.battery.format("%d");
         var boltW = p(10);
         var boltGap = p(4);
         var battW = dc.getTextWidthInPixels(battStr, _fMd);
         var battX = _cx - (boltW + boltGap + battW) / 2;
-        drawBolt(dc, battX, p(BOLT_Y));
+        drawBolt(dc, battX, p(BOLT_Y), stats.charging);
         textL(dc, battX + boltW + boltGap, p(BOLT_Y), _fMd, battStr);
 
         // ---- 时间（加粗）+ SATISFY（加粗）----
@@ -724,8 +850,6 @@ class TacticalFaceView extends WatchUi.WatchFace {
         drawSunGlyph(dc, sx + iconW / 2, p(_sunTextY + 8), showSet);
         textL(dc, sx + iconW + gap, p(_sunTextY), _fMd, sunStr);
 
-        var tStr = tempStr(ds);
-        var ttw = dc.getTextWidthInPixels(tStr, _fMd);
-        textHalo(dc, _cx - ttw / 2, p(_tempY), _fMd, tStr);
+        drawTemperature(dc, ds);
     }
 }

@@ -31,6 +31,10 @@ class TacticalFaceDelegate extends WatchUi.WatchFaceDelegate {
             _view.toggleInvert();
             return true;
         }
+        if (_view.hitMetricRows(c[0], c[1])) {
+            _view.toggleMetricPage();
+            return true;
+        }
         return false;
     }
 
