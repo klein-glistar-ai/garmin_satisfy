@@ -745,9 +745,12 @@ class TacticalFaceView extends WatchUi.WatchFace {
         var timeW = dc.getTextWidthInPixels(timeStr, _fTime);
         textL(dc, timeX, p(_timeY), _fTime, timeStr);
         var satExtra = _hi ? 3 : 2;
-        var satY = p(_timeY) + dc.getFontHeight(_fTime) - dc.getFontHeight(_fSm);
+        var smH = dc.getFontHeight(_fSm);
+        var satY = p(_timeY) + dc.getFontHeight(_fTime) - smH;
         var satRight = _valRight ? p(_valX) : (_w - p(_rowX));
         var satLeft = satRight - textSpacedW(dc, _fSm, "SATISFY", satExtra);
+        var secGap = _hi ? 4 : 2;
+        textL(dc, satLeft, satY - smH - secGap, _fSm, clock.sec.format("%02d"));
         textSpacedR(dc, satRight, satY, _fSm, "SATISFY", satExtra);
 
         // ---- 日期：与时间水平居中对齐 ----
