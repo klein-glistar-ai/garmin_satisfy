@@ -1,5 +1,5 @@
 #!/bin/bash
-# 编译表盘。默认 Forerunner 970；也可：./build.sh enduro3 | ./build.sh fr955 | ./build.sh fr965
+# 编译表盘。默认 Forerunner 970；也可：./build.sh enduro3 | ./build.sh fr955 | ./build.sh fr255 | ./build.sh fr965
 set -euo pipefail
 if [ -x "$HOME/.local/jdk/jdk-21.0.12.1+1-jre/Contents/Home/bin/java" ]; then
   export JAVA_HOME="$HOME/.local/jdk/jdk-21.0.12.1+1-jre/Contents/Home"

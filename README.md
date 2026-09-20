@@ -11,6 +11,7 @@ Garmin Connect IQ 表盘，手表上显示为 **TACTICAL MONO**。单色战术�
 | Forerunner 970 | 454×454 AMOLED | 默认编译目标 |
 | Forerunner 965 | 454×454 AMOLED | 与 970 共用资源 |
 | Forerunner 955 | 260×260 MIP | 独立小字号；不用全屏纸纹，避免 128KB 表盘内存爆掉 |
+| Forerunner 255 / 255 Music | 260×260 MIP | 与 955 共用资源 |
 | Enduro 3 | 280×280 MIP | 默认 `resources/` |
 
 Connect IQ `minApiLevel`：**5.0.0**
@@ -36,6 +37,7 @@ cd TacticalFace
 ./build.sh          # Forerunner 970
 ./build.sh fr965
 ./build.sh fr955
+./build.sh fr255
 ./build.sh enduro3
 ```
 
@@ -49,6 +51,7 @@ cd TacticalFace
 "$SDK/bin/connectiq"
 "$SDK/bin/monkeydo" TacticalFace/bin/TacticalFace-fr970.prg fr970
 "$SDK/bin/monkeydo" TacticalFace/bin/TacticalFace-fr955.prg fr955
+"$SDK/bin/monkeydo" TacticalFace/bin/TacticalFace-fr255.prg fr255
 ```
 
 `monkeydo` 需保持连接，断开后面盘会从模拟器卸下。
@@ -60,7 +63,7 @@ cd TacticalFace
 3. 把**对应机型**的 `.prg` 拷到 `GARMIN/APPS/`
 4. 手表长按 UP → 表盘，滚到最后选 **TACTICAL MONO**
 
-不要把 970 的包拷到 955 上，机型不对会直接 IQ 感叹号。
+不要把 970 的包拷到 955 / 255 上，机型不对会直接 IQ 感叹号。
 
 ## 许可证
 

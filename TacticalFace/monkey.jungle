@@ -1,3 +1,6 @@
 project.manifest = manifest.xml
+# 255 / 255 Music 与 955 同为 260×260 MIP，共用 955 资源
+fr255.resourcePath = resources;resources-fr955
+fr255m.resourcePath = resources;resources-fr955
 # 965 与 970 同为 454×454 AMOLED，共用 970 资源
 fr965.resourcePath = resources;resources-fr970
